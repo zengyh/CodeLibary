@@ -1,0 +1,14 @@
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="generateExcel" class="generateExcelAction">
+           <result name="success" type="stream" >
+                  <param name="contentType" >application/vnd.ms-excel</param>
+                <param name="contentDisposition" >attachment;filename="AllUsers.xls"</param>
+                 <param name="inputName" >downloadFile</param>
+           </result>
+        </action>
+    </package>
+</struts>

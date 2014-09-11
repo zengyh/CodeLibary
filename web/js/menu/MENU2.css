@@ -1,0 +1,48 @@
+/*!
+ * @author yh.zeng
+ * @descript 菜单MENU.JS的样式文件
+ * @date  2013/11/27
+ */
+ul.nav {
+    margin: 0;
+    padding: 2px 3px 2px 2px;
+    list-style-type: none;
+	float: left;
+    line-height: 0.6em;
+    border-top: 1px solid #FDFDFD;
+    border-left: 1px solid #FDFDFD;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+	background-image: url("/images/menu/PopupMenuBg.jpg");
+	background-repeat: repeat-y;
+}
+
+ul.nav li {
+	float: left;
+	clear: both;
+	padding-left: 26px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-right: 0px;
+    cursor: pointer;  
+}
+
+ul.nav li img {
+    cursor: pointer;    
+}
+
+ul.nav li a {	
+    display: block;
+    font-size: 12px;
+	color: black;
+    text-decoration: none;
+    text-align: left;
+    padding: 0.5em 0;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+ul.nav li a:visited,ul.nav li a:hover{
+	color: black;
+}

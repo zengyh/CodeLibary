@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="CodeLibary:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CodeLibary_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CodeLibary" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="cxf" />
+          <element id="library" level="project" name="jsoup-1.7.2" />
+          <element id="library" level="project" name="common" />
+          <element id="library" level="project" name="htmlunit" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="CodeLibary/web/Web" />
+    </root>
+  </artifact>
+</component>

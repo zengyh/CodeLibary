@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="cxf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/abdera-core-0.4.0-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/abdera-extensions-json-0.4.0-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/abdera-extensions-main-0.4.0-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/abdera-i18n-0.4.0-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/abdera-parser-0.4.0-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/asm-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/cxf-2.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/FastInfoset-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/geronimo-activation_1.1_spec-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/geronimo-annotation_1.0_spec-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/geronimo-jaxws_2.1_spec-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/geronimo-stax-api_1.0_spec-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/geronimo-ws-metadata_2.0_spec-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jaxb-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jaxb-impl-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jaxen-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jdom-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jettison-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jetty-6.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jetty-util-6.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jra-1.0-alpha-4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/js-1.6R7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jsr311-api-0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/neethi-2.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/opensaml-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/saaj-api-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/saaj-impl-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/spring-beans-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/spring-context-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/spring-core-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/spring-web-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/stax-utils-20060502.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/velocity-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/velocity-dep-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/wsdl4j-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/wss4j-1.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/wstx-asl-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/xml-resolver-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/xmlbeans-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/XmlSchema-1.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/xmlsec-1.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jaxb-xjc-2.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../jars/cxf/jaxb-xjc-2.1.7.jar!/1.0" />
+    </SOURCES>
+  </library>
+</component>

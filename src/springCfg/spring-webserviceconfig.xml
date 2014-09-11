@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://cxf.apache.org/jaxws
+       http://cxf.apache.org/schemas/jaxws.xsd">
+
+    <import resource="classpath:META-INF/cxf/cxf.xml"></import>
+    <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"></import>
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml"></import>
+
+    <bean id="helloserivce" class="webservice.net.ilkj.soap.server.HelloServiceImpl"></bean>
+
+
+    <bean id="inInter" class="org.apache.cxf.interceptor.LoggingInInterceptor"></bean>
+    <bean id="outInter" class="org.apache.cxf.interceptor.LoggingOutInterceptor"></bean>
+
+    <!-- 用户名令牌验证机制 -->
+    <bean id="wss4jInInterceptor" class="org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor">
+        <constructor-arg>
+             <map>
+                 <entry key="action" value="UsernameToken"/>
+                 <!--<entry key="passwordType" value="PasswordText"/>--><!-- 密码明文传送-->
+                 <entry key="passwordType" value="PasswordDigest"/> <!-- MD5加密方式发送 -->
+                 <entry key="passwordCallbackClass" value="webservice.net.ilkj.soap.server.security.ServerPasswordCallbackHandler"/>
+             </map>
+        </constructor-arg>
+    </bean>
+
+    <jaxws:server id="helloServer"
+                  address="/helloService"
+                  serviceClass="webservice.net.ilkj.soap.server.HelloServiceImpl">
+        <jaxws:serviceBean>
+            <ref bean="helloserivce"/>
+        </jaxws:serviceBean>
+        <jaxws:inInterceptors>
+            <ref bean="inInter"/>
+            <ref bean="wss4jInInterceptor"/>   <!-- 添加用户名令牌验证机制 -->
+        </jaxws:inInterceptors>
+        <jaxws:outInterceptors>
+            <ref bean="outInter"/>
+        </jaxws:outInterceptors>
+        <jaxws:properties>
+            <entry key="mtom-ebabled" value="true"></entry>  <!-- 启用MTOM支持-->
+        </jaxws:properties>
+    </jaxws:server>
+</beans>

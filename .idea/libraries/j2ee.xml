@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="j2ee">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jars/j2ee/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jars/j2ee/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
