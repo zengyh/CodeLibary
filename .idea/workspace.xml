@@ -6,13 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/clipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/SyntaxHighlighter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/common.jspf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demoHead.jspf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushCss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushJScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushJava.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushSql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushXml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shCore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp" afterPath="$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/tool.js" afterPath="$PROJECT_DIR$/web/js/tool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410415640278" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410623690118" ignored="false" />
     <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093925610" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
@@ -85,11 +96,13 @@
     <file path="/layout.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408795039184" ignored="false" />
     <file path="/Layout.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408795286739" ignored="false" />
     <file path="/MENU2.css" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408867119030" ignored="false" />
-    <file path="/MENU_TEST.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408867589646" ignored="false" />
-    <file path="/MENU.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408867516117" ignored="false" />
+    <file path="/MENU_TEST.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410622216288" ignored="false" />
+    <file path="/MENU.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410620544026" ignored="false" />
     <file path="/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/common/utils/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="/makeContentImage.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1409219131669" ignored="false" />
+    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410618881604" ignored="false" />
+    <file path="/demoHead.html" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410620909144" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +122,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -143,7 +157,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -152,7 +165,35 @@
     <favorites_list name="CodeLibary" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MENU_TEST.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="11" selection-start="3519" selection-end="3519" vertical-scroll-proportion="-50.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.jspf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/common.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demoHead.jspf" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.51153845">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -170,22 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/http/httpclient/HttpClientUtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/utils/database/DataBaseAjaxBean.java" />
-        <option value="$PROJECT_DIR$/src/utils/database/DatabaseBackupServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/utils/database/IDatabaseBackupService.java" />
         <option value="$PROJECT_DIR$/src/utils/database/TabDatabaseBackup.java" />
         <option value="$PROJECT_DIR$/web/js/table/table.js" />
         <option value="$PROJECT_DIR$/web/js/json-rpc/JSON-RPC-BEAN.js" />
         <option value="$PROJECT_DIR$/web/js/table/table_test.jsp" />
         <option value="$PROJECT_DIR$/web/js/layout/layout.js" />
         <option value="$PROJECT_DIR$/web/js/layout/Layout.js" />
-        <option value="$PROJECT_DIR$/web/js/tool.js" />
         <option value="$PROJECT_DIR$/web/js/menu/MENU2.css" />
-        <option value="$PROJECT_DIR$/web/js/menu/MENU.js" />
-        <option value="$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp" />
         <option value="$PROJECT_DIR$/src/utils/MakeContentImage.java" />
         <option value="$PROJECT_DIR$/web/jsp/makeImage/makeContentImage.jsp" />
+        <option value="$PROJECT_DIR$/web/js/menu/MENU.js" />
+        <option value="$PROJECT_DIR$/web/js/tool.js" />
+        <option value="$PROJECT_DIR$/web/demoHead.html" />
+        <option value="$PROJECT_DIR$/web/common.jspx" />
+        <option value="$PROJECT_DIR$/web/common.jspf" />
+        <option value="$PROJECT_DIR$/web/demoHead.jspf" />
+        <option value="$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp" />
       </list>
     </option>
   </component>
@@ -235,6 +276,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,25 +296,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="syntaxHighliter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="104" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="127" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="121" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="121" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ir_sirm_jj_dcjj" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="129" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="921" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="926" />
@@ -284,26 +379,26 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="options.lastSelected" value="Web Contexts" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\CodeLibary\web" />
+      <recent name="E:\workspace\CodeLibary\web\js\syntaxHighliter" />
+      <recent name="E:\workspace\CodeLibary\web\js" />
       <recent name="E:\workspace\CodeLibary\web\images" />
       <recent name="E:\workspace\CodeLibary\web\js\images\menu" />
-      <recent name="E:\workspace\CodeLibary\web\js" />
-      <recent name="E:\workspace\CodeLibary\web\js\images" />
-      <recent name="E:\workspace\CodeLibary\web\js\menu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\CodeLibary\web\images\menu" />
@@ -405,6 +500,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -431,19 +539,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -661,40 +756,6 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\CodeLibary\.idea" />
-          <option name="myCopyRoot" value="E:\workspace\CodeLibary\.idea" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\CodeLibary" />
-          <option name="myCopyRoot" value="E:\workspace\CodeLibary\src" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\CodeLibary" />
-          <option name="myCopyRoot" value="E:\workspace\CodeLibary\web" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\CodeLibary" />
-          <option name="myCopyRoot" value="E:\workspace\CodeLibary\.idea" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\CodeLibary" />
-          <option name="myCopyRoot" value="E:\workspace\CodeLibary\src" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\CodeLibary" />
-          <option name="myCopyRoot" value="E:\workspace\CodeLibary\web" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="" />
@@ -733,15 +794,18 @@
       <created>1410414154577</created>
       <updated>1410414154577</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="首次提交代码">
+      <created>1410416345779</created>
+      <updated>1410416345779</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,13 +823,14 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027355" sideWeight="0.6717428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027355" sideWeight="0.47715735" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5465313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.49422634" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -807,7 +872,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加代码高亮插件syntaxHighliter的来演示代码" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -826,6 +891,7 @@
     <MESSAGE value="添加了菜单" />
     <MESSAGE value="修改菜单，解决了以下bug&#10;1、解决点击显示菜单，每次菜单的宽度都会加长的bug&#10;&#10;2、修改了setWidth函数，让它修改菜单项的宽度。&#10;" />
     <MESSAGE value="首次提交代码" />
+    <MESSAGE value="添加代码高亮插件syntaxHighliter的来演示代码" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -869,51 +935,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/json-rpc/JSON-RPC-BEAN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.20320855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/table/table_test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="466" selection-end="466" vertical-scroll-proportion="0.60600376" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/table/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="69" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/layout/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="75" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/tool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="61" selection-start="3503" selection-end="3503" vertical-scroll-proportion="7.28164" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/menu/PopupMenuBg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="68" selection-start="993" selection-end="993" vertical-scroll-proportion="0.43846154" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="489" selection-end="489" vertical-scroll-proportion="0.6613191" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="244" selection-end="244" vertical-scroll-proportion="0.4064171" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/excel/action/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="0.20320855" />
@@ -922,11 +943,6 @@
     <entry file="file://$PROJECT_DIR$/web/js/menu/MENU2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="54" selection-start="688" selection-end="688" vertical-scroll-proportion="0.4064171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="13" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.124087594" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
@@ -941,14 +957,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/MakeContentImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="447" selection-end="447" vertical-scroll-proportion="0.42424244">
-          <folding />
-        </state>
+        <state line="20" column="12" selection-start="447" selection-end="447" vertical-scroll-proportion="0.42424244" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/makeContentImage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="295" selection-end="295" vertical-scroll-proportion="0.39212006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="22" selection-start="885" selection-end="885" vertical-scroll-proportion="0.33211678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="23" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.33211678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/clipboard.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="475" column="13" selection-start="10348" selection-end="10348" vertical-scroll-proportion="-3.1319072">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/tool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="7.518717">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/shCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="157" selection-start="4149" selection-end="4150" vertical-scroll-proportion="1.1441606">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jars/cxf/spring-web-2.0.8.jar!/org/springframework/web/util/HtmlUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="387" selection-end="387" vertical-scroll-proportion="0.3544776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="11" selection-start="3519" selection-end="3519" vertical-scroll-proportion="-50.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.51153845">
           <folding />
         </state>
       </provider>

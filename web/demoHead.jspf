@@ -1,0 +1,15 @@
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/tool.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shCore.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shBrushXml.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shBrushJScript.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shBrushJava.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shBrushSql.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shBrushCss.js"></script>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/js/syntaxHighliter/SyntaxHighlighter.css"/>
+<script type="text/javascript">
+    //addEvent是本人写的一个追加事件的方法，见tool.js
+    addEvent(window,"load",function(){
+        dp.SyntaxHighlighter.ClipboardSwf = '${pageContext.request.contextPath}/js/syntaxHighliter/clipboard.swf';
+        dp.SyntaxHighlighter.HighlightAll('code');
+    });
+</script>

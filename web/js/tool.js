@@ -1,3 +1,9 @@
+/*!
+ * @author yh.zeng
+ * @descript DOM节点操作工具类
+ * @date  2013/10/16
+ */
+
 /**
  * 隐藏元素
  * @param id 要隐藏的节点，可以使字符串也可以是DOM节点。可以传多个
