@@ -5,12 +5,12 @@
   Time: 下午8:34
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="org.springframework.web.util.HtmlUtils" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="org.springframework.web.util.HtmlUtils" %>
 <%@include file="/common.jspf"%>
-<%@include file="/demoHead.jspf"%>
+<%@include file="/demoHead.jspf"%>  <%-- 引用代码高亮插件syntaxHighliter --%>
 <html>
-<head><title>menu test</title></head>
+<head><title>MENU.JS菜单控件使用例子</title></head>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/menu/MENU.js"></script>
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/js/menu/MENU2.css">
 <script type="text/javascript">
@@ -38,7 +38,7 @@
 </script>
 <body style="width: 100%; height: 100%;">
 <input type="text" value="点击我显示菜单" id="thisText"/>
-<div style="width: 100px; height: 100px;background-color: #f5f5dc;padding-top:40px;" id="thisDiv">
+<div style="width: 200px; height: 100px;background-color: #f5f5dc;padding-top:40px;" id="thisDiv">
    右击我显示菜单
 </div>
 <br>
@@ -72,7 +72,7 @@
             "    });\n" +
             "</script>\n" +
             "<input type=\"text\" value=\"点击我显示菜单\" id=\"thisText\"/>\n" +
-            "<div style=\"width: 100px; height: 100px;background-color: #f5f5dc;padding-top:40px;\" id=\"thisDiv\">\n" +
+            "<div style=\"width: 200px; height: 100px;background-color: #f5f5dc;padding-top:40px;\" id=\"thisDiv\">\n" +
             "   右击我显示菜单\n" +
             "</div>" ) );
 %>
