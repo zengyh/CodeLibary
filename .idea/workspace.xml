@@ -6,25 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/clipboard.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/SyntaxHighlighter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/common.jspf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demoHead.jspf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushCss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushJScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushJava.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushSql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shBrushXml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/syntaxHighliter/shCore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp" afterPath="$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/tool.js" afterPath="$PROJECT_DIR$/web/js/tool.js" />
+    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="添加代码高亮插件syntaxHighliter的来演示代码">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/table/demo/demo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" />
+      <change type="DELETED" beforePath="E:\workspace\CodeLibary\web\js\table\table_test.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\CodeLibary\web\jsp\makeImage\makeContentImage.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MakeContentImage.java" afterPath="$PROJECT_DIR$/src/utils/MakeContentImage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410623690118" ignored="false" />
-    <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093925610" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411274413951" ignored="false" />
+    <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410669952979" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/busin/stockresearch/service/StockResearchServiceFactory.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408094014934" ignored="false" />
@@ -96,13 +90,17 @@
     <file path="/layout.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408795039184" ignored="false" />
     <file path="/Layout.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408795286739" ignored="false" />
     <file path="/MENU2.css" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408867119030" ignored="false" />
-    <file path="/MENU_TEST.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410622216288" ignored="false" />
+    <file path="/MENU_TEST.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410661022984" ignored="false" />
     <file path="/MENU.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410620544026" ignored="false" />
     <file path="/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/common/utils/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
-    <file path="/makeContentImage.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1409219131669" ignored="false" />
-    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410618881604" ignored="false" />
+    <file path="/makeContentImage.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411276751830" ignored="false" />
+    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411276637056" ignored="false" />
     <file path="/demoHead.html" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410620909144" ignored="false" />
+    <file path="/demo.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411276919913" ignored="false" />
+    <file path="/EscapeHtmlTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410670353006" ignored="false" />
+    <file path="/escape.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410670780348" ignored="false" />
+    <file path="/MakeContentImage.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411277187578" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,29 +164,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MENU_TEST.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp">
+      <file leaf-file-name="demo.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/demo/demo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="11" selection-start="3519" selection-end="3519" vertical-scroll-proportion="-50.4">
+            <state line="14" column="0" selection-start="447" selection-end="725" vertical-scroll-proportion="-8.857142">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.jspf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/common.jspf">
+      <file leaf-file-name="demo.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/demo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0">
+            <state line="13" column="8" selection-start="454" selection-end="454" vertical-scroll-proportion="-0.6785714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demoHead.jspf" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
+      <file leaf-file-name="MakeContentImage.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/MakeContentImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.51153845">
-              <folding />
+            <state line="65" column="29" selection-start="1741" selection-end="1741" vertical-scroll-proportion="2.0054746">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,22 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/database/TabDatabaseBackup.java" />
-        <option value="$PROJECT_DIR$/web/js/table/table.js" />
-        <option value="$PROJECT_DIR$/web/js/json-rpc/JSON-RPC-BEAN.js" />
-        <option value="$PROJECT_DIR$/web/js/table/table_test.jsp" />
-        <option value="$PROJECT_DIR$/web/js/layout/layout.js" />
-        <option value="$PROJECT_DIR$/web/js/layout/Layout.js" />
-        <option value="$PROJECT_DIR$/web/js/menu/MENU2.css" />
-        <option value="$PROJECT_DIR$/src/utils/MakeContentImage.java" />
-        <option value="$PROJECT_DIR$/web/jsp/makeImage/makeContentImage.jsp" />
-        <option value="$PROJECT_DIR$/web/js/menu/MENU.js" />
-        <option value="$PROJECT_DIR$/web/js/tool.js" />
-        <option value="$PROJECT_DIR$/web/demoHead.html" />
-        <option value="$PROJECT_DIR$/web/common.jspx" />
-        <option value="$PROJECT_DIR$/web/common.jspf" />
-        <option value="$PROJECT_DIR$/web/demoHead.jspf" />
         <option value="$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp" />
+        <option value="$PROJECT_DIR$/web/js/menu/demo/MENU_TEST.jsp" />
+        <option value="$PROJECT_DIR$/web/js/menu/demo/demo.jsp" />
+        <option value="$PROJECT_DIR$/web/demoHead.jspf" />
+        <option value="$PROJECT_DIR$/src/utils/tag/TestTag.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/test.tld" />
+        <option value="$PROJECT_DIR$/src/utils/tag/EscapeHtmlTag.java" />
+        <option value="$PROJECT_DIR$/src/utils/function/EscapeFunction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/escape.tld" />
+        <option value="$PROJECT_DIR$/web/common.jspf" />
+        <option value="$PROJECT_DIR$/web/js/syntaxHighliter/demo/demo.jsp" />
+        <option value="$PROJECT_DIR$/web/js/table/demo/demo.jsp" />
+        <option value="$PROJECT_DIR$/web/images/dd.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/makeImage/makeContentImage.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" />
+        <option value="$PROJECT_DIR$/src/utils/MakeContentImage.java" />
       </list>
     </option>
   </component>
@@ -276,8 +276,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,6 +285,10 @@
               <option name="myItemId" value="CodeLibary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -307,24 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeLibary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeLibary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,8 +331,22 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="syntaxHighliter" />
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,8 +356,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="104" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="127" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="103" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="126" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -367,9 +367,9 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="121" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ir_sirm_jj_dcjj" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="129" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="128" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="921" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="926" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="916" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="123" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="121" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -384,7 +384,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="Web Contexts" />
+    <property name="options.lastSelected" value="fileColors" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -401,6 +401,7 @@
       <recent name="E:\workspace\CodeLibary\web\js\images\menu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\CodeLibary\web\js\menu\demo" />
       <recent name="E:\workspace\CodeLibary\web\images\menu" />
       <recent name="E:\workspace\CodeLibary\web" />
       <recent name="E:\workspace\CodeLibary\web\js\layout" />
@@ -798,11 +799,39 @@
       <created>1410416345779</created>
       <updated>1410416345779</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加代码高亮插件syntaxHighliter的来演示代码">
+      <created>1410623701453</created>
+      <updated>1410623701453</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1、修改了菜单控件的demo&#10;2、添加了SyntaxHighlighter控件的使用demo">
+      <created>1410672336998</created>
+      <updated>1410672336998</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
@@ -810,27 +839,27 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942264" sideWeight="0.25913045" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52284265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5431472" sideWeight="0.62082064" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52284265" sideWeight="0.37386018" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.47715735" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027355" sideWeight="0.47715735" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027355" sideWeight="0.4568528" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5465313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.49422634" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.49422634" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -872,7 +901,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加代码高亮插件syntaxHighliter的来演示代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、修改了菜单控件的demo&#10;2、添加了SyntaxHighlighter控件的使用demo" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -892,6 +921,7 @@
     <MESSAGE value="修改菜单，解决了以下bug&#10;1、解决点击显示菜单，每次菜单的宽度都会加长的bug&#10;&#10;2、修改了setWidth函数，让它修改菜单项的宽度。&#10;" />
     <MESSAGE value="首次提交代码" />
     <MESSAGE value="添加代码高亮插件syntaxHighliter的来演示代码" />
+    <MESSAGE value="1、修改了菜单控件的demo&#10;2、添加了SyntaxHighlighter控件的使用demo" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -935,111 +965,101 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/excel/action/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/js/menu/demo/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="0.20320855" />
+        <state line="45" column="24" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.37884617" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU2.css">
+    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/shBrushCss.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="54" selection-start="688" selection-end="688" vertical-scroll-proportion="0.4064171" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/shBrushSql.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.38138688" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MacUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MakeContentImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="447" selection-end="447" vertical-scroll-proportion="0.42424244" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/makeContentImage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="295" selection-end="295" vertical-scroll-proportion="0.39212006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="22" selection-start="885" selection-end="885" vertical-scroll-proportion="0.33211678">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.33211678">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/clipboard.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/menu/MENU.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="475" column="13" selection-start="10348" selection-end="10348" vertical-scroll-proportion="-3.1319072">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="3" column="26" selection-start="59" selection-end="59" vertical-scroll-proportion="0.1040146" />
+      </provider>
+    </entry>
+    <entry file="jar://E:/java Tools/htmlunit-2.15/lib/httpcore-4.3.2.jar!/org/apache/http/params/CoreConnectionPNames.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="214" selection-end="214" vertical-scroll-proportion="0.31902984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/http/httpclient/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="25" selection-start="6371" selection-end="6371" vertical-scroll-proportion="-0.7950089" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/http/htmlunit/HTMLUnitUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="314" selection-end="314" vertical-scroll-proportion="0.020072993" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="-4.0565696">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/tool.js">
+    <entry file="file://$PROJECT_DIR$/web/js/table/table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="7.518717">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="80" column="9" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.33211678" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common.jspf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0">
+        <state line="0" column="74" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/shCore.js">
+    <entry file="file://$PROJECT_DIR$/web/js/table/demo/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="157" selection-start="4149" selection-end="4150" vertical-scroll-proportion="1.1441606">
+        <state line="129" column="49" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.4923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java Tools/htmlunit-2.15/lib/htmlunit-core-js-2.15.jar!/net/sourceforge/htmlunit/corejs/javascript/commonjs/module/provider/UrlConnectionExpiryCalculator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="214" selection-end="214" vertical-scroll-proportion="0.1772388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/Java/JDK1.7/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1345" column="32" selection-start="47791" selection-end="47791" vertical-scroll-proportion="2.4670231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/demo/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="447" selection-end="725" vertical-scroll-proportion="-8.857142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="454" selection-end="454" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/MakeContentImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="29" selection-start="1741" selection-end="1741" vertical-scroll-proportion="2.0054746">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../jars/cxf/spring-web-2.0.8.jar!/org/springframework/web/util/HtmlUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="387" selection-end="387" vertical-scroll-proportion="0.3544776">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU_TEST.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="11" selection-start="3519" selection-end="3519" vertical-scroll-proportion="-50.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.51153845">
-          <folding />
         </state>
       </provider>
     </entry>
