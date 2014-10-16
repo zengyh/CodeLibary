@@ -114,5 +114,43 @@ public class DateUtils {
     	
     	return calendar.getMaximum(Calendar.DATE) ;
     }
+
+    /**
+     * 获取以date为最后一天的前n天的日期
+     * 若date = 2014-4-6 11:33:40, n = 2,则返回[2014-4-5 00:00:00,2014-4-6 23:59:59]
+     * @param date
+     * @param n
+     * @return
+     */
+    public static Date[] getBeforeDates( Date date, int n ) {
+
+        if ( n <= 0 ) {
+            return null;
+        }
+
+        Date[] dateArr = new Date[ n ];
+
+        try {
+            SimpleDateFormat dateFormat = new SimpleDateFormat( "yyyy-MM-dd" );
+            SimpleDateFormat dateFormat2 = new SimpleDateFormat( "yyyy-MM-dd[HH:mm:ss]" );
+
+            String dateStr = dateFormat.format( date );
+            Date _date = dateFormat.parse( dateStr );
+
+            dateStr += "[23:59:59]";
+            dateArr[ n - 1 ] = dateFormat2.parse( dateStr );
+
+            for ( int i = 1; i < n; i++ ) {
+                dateArr[ n - i - 1 ] = getSpecifiedDayBefore( _date );
+                _date = dateArr[ n - i - 1 ];
+            }
+
+        } catch ( ParseException e ) {
+            // e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
+        return dateArr;
+
+    }
     
 }
