@@ -230,4 +230,20 @@ public class StringUtils {
 
 	}
 
+    /**
+     * 若是空字符串则返回 ""
+     * 否则返回原字符串
+     * @param str
+     * @return
+     */
+    public static String  toEmpStr(String str){
+
+        if(str == null || str.trim().equals( "" ) || str.trim().equals( "null" )){
+            return "";
+        }else{
+            return str.trim();
+        }
+
+    }
+
 }
