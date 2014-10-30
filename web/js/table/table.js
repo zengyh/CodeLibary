@@ -37,7 +37,7 @@ var TableColor = (function(){
     	}
 
 
-    	if (selectedTr && selectedColor != "none") {
+    	if (selectedTr) {
     		var tds = selectedTr.getElementsByTagName("td");
     		for ( var i = 0; i < tds.length; i++) {
     			tds[i].style.backgroundColor = selectedColor;
@@ -114,13 +114,16 @@ var TableColor = (function(){
 
                 changeColorSample1(trs, tr, normalColor, targetColor, selectedColor);
 
-    			tr.onclick = function(){
-    				for(var j = 0; j < trs.length; j++){
-    					trs[j].setAttribute("selected",false);
-    				}
-    				tr.setAttribute("selected",true);
-    				changeColorSample1(trs, tr, normalColor, targetColor, selectedColor);
-    			};
+                if(selectedColor != "none"){
+                    tr.onclick = function () {
+                        for (var j = 0; j < trs.length; j++) {
+                            trs[j].setAttribute("selected", false);
+                        }
+                        tr.setAttribute("selected", true);
+
+                        changeColorSample1(trs, tr, normalColor, targetColor, selectedColor);
+                    };
+                }
     			tr.onmouseout = function(){ changeColorSample1(trs, tr, normalColor, targetColor, selectedColor, false);};
     			tr.onmouseover = function(){ changeColorSample1(trs, tr, normalColor, targetColor, selectedColor, true);};
     		})(trs,trs[i]);
