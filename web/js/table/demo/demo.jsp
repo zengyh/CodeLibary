@@ -16,8 +16,8 @@
     <script type="text/javascript" src="/js/table/table.js"></script>
     <script>
        $(function(){
-           changeTableColorSample1("table1");
-           changeTableColorSample1("table2","#ddd2b2","#5c7cff","#96596F");
+           TableColor.changeTableColorSample1("table1");
+           TableColor.changeTableColorSample1("table2","#ddd2b2","#5c7cff","#96596F");
        });
     </script>
 </head>
