@@ -13,7 +13,7 @@
 <head>
     <title>表格各行换色例子</title>
     <script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="/js/table/table.js"></script>
+    <script type="text/javascript" src="/js/table/tablecolor.js"></script>
     <script>
        $(function(){
            TableColor.changeTableColorSample1("table1");
