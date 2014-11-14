@@ -3,12 +3,12 @@ package support;
 import java.util.*;
 
 /**
- * 文件名称: NoSortMap.java
+ * 文件名称: NotSortMap.java
  * 编写人: yh.zeng
  * 编写时间: 14-11-14 下午1:27
  * 文件描述: 不排序的Map，即按照put进来的顺序排序
  */
-public class NoSortMap<K,V> extends TreeMap<K,V>
+public class NotSortMap<K,V> extends TreeMap<K,V>
 {
     private Integer generateNum = new Integer(-1);
     private Map<K,Integer> sortKeysMap = new HashMap<K,Integer>();
@@ -23,10 +23,10 @@ public class NoSortMap<K,V> extends TreeMap<K,V>
 
     private TreeMap<K,V> realMap = new TreeMap<K, V>(hiddenComparator);
 
-    public NoSortMap() {
+    public NotSortMap() {
     }
 
-    public NoSortMap(SortedMap<K, ? extends V> m) {
+    public NotSortMap(SortedMap<K, ? extends V> m) {
         if(m != null){
             Iterator<K> iterator = m.keySet().iterator();
             while(iterator.hasNext()){
@@ -36,7 +36,7 @@ public class NoSortMap<K,V> extends TreeMap<K,V>
         }
     }
 
-    public NoSortMap(Map<? extends K, ? extends V> m) {
+    public NotSortMap(Map<? extends K, ? extends V> m) {
         if(m != null){
             Iterator iterator = m.keySet().iterator();
             while(iterator.hasNext()){
