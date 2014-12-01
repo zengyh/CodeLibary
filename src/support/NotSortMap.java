@@ -74,7 +74,7 @@ public class NotSortMap<K,V> extends TreeMap<K,V>
     }
 
     public Object clone() {
-        return this.clone();
+        return super.clone();
     }
 
     public int size() {
@@ -181,16 +181,16 @@ public class NotSortMap<K,V> extends TreeMap<K,V>
 
     @Override
     public boolean equals(Object o) {
-        return this.equals(o);
+        return super.equals(o);
     }
 
     @Override
     public int hashCode() {
-        return this.hashCode();
+        return super.hashCode();
     }
 
     @Override
     public String toString() {
-        return this.toString();
+        return super.toString();
     }
 }
