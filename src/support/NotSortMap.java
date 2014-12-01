@@ -16,8 +16,8 @@ public class NotSortMap<K,V> extends TreeMap<K,V>
     private  Comparator<K> hiddenComparator = new Comparator<K>()
     {
         @Override
-        public int compare(Object o1, Object o2) {
-            return sortKeysMap.get(o1).compareTo(sortKeysMap.get(o2));
+        public int compare(Object key1, Object key2) {
+            return sortKeysMap.get(key1).compareTo(sortKeysMap.get(key2));
         }
     };
 
