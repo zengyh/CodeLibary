@@ -3,29 +3,29 @@ package support;
 import java.util.*;
 
 /**
- * 文件名称: NumericSortDescMap.java
+ * 文件名称: IntegerSortAscMap.java
  * 编写人: yh.zeng
  * 编写时间: 14-12-1 下午3:42
- * 文件描述: value=数字类型的Map，按照value降序排序
+ * 文件描述: 按照value升序排序
  */
-public class NumericSortDescMap<K, V extends Integer> extends TreeMap<K, V>
+public class IntegerSortAscMap<K, V extends Integer> extends TreeMap<K, V>
 {
-    private Map<K, Integer> sortValuesMap = new HashMap<K, Integer>();
+    private Map<K, V> sortValuesMap = new HashMap<K, V>();
 
     private Comparator<K> hiddenComparator = new Comparator<K>()
     {
         @Override
         public int compare(Object key1, Object key2) {
-            return sortValuesMap.get(key2).compareTo(sortValuesMap.get(key1));
+            return sortValuesMap.get(key1).compareTo(sortValuesMap.get(key2));
         }
     };
 
     private TreeMap<K, V> realMap = new TreeMap<K, V>(hiddenComparator);
 
-    public NumericSortDescMap() {
+    public IntegerSortAscMap() {
     }
 
-    public NumericSortDescMap(SortedMap<K, ? extends V> m) {
+    public IntegerSortAscMap(SortedMap<K, ? extends V> m) {
         if (m != null) {
             Iterator<K> iterator = m.keySet().iterator();
             while (iterator.hasNext()) {
@@ -35,7 +35,7 @@ public class NumericSortDescMap<K, V extends Integer> extends TreeMap<K, V>
         }
     }
 
-    public NumericSortDescMap(Map<? extends K, ? extends V> m) {
+    public IntegerSortAscMap(Map<? extends K, ? extends V> m) {
         if (m != null) {
             Iterator iterator = m.keySet().iterator();
             while (iterator.hasNext()) {
