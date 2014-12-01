@@ -10,14 +10,18 @@ import java.util.*;
  */
 public class FloatSortDescMap<K, V extends Float> extends TreeMap<K, V>
 {
-    private Map<K, V> sortValuesMap = new HashMap<K, V>();
+    private Map<K, Float> sortValuesMap = new HashMap<K, Float>();
 
     private Comparator<K> hiddenComparator = new Comparator<K>()
     {
         @Override
         public int compare(Object key1, Object key2) {
-
-            return sortValuesMap.get(key2).compareTo(sortValuesMap.get(key1));
+            int compareValue = sortValuesMap.get(key2).compareTo(sortValuesMap.get(key1));
+            if (compareValue == 0) {
+                return 1;
+            } else {
+                return compareValue;
+            }
         }
     };
 

@@ -10,13 +10,18 @@ import java.util.*;
  */
 public class IntegerSortAscMap<K, V extends Integer> extends TreeMap<K, V>
 {
-    private Map<K, V> sortValuesMap = new HashMap<K, V>();
+    private Map<K, Integer> sortValuesMap = new HashMap<K, Integer>();
 
     private Comparator<K> hiddenComparator = new Comparator<K>()
     {
         @Override
         public int compare(Object key1, Object key2) {
-            return sortValuesMap.get(key1).compareTo(sortValuesMap.get(key2));
+            int compareValue = sortValuesMap.get(key1).compareTo(sortValuesMap.get(key2));
+            if (compareValue == 0) {
+                return 1;
+            } else {
+                return compareValue;
+            }
         }
     };
 

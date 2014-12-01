@@ -16,8 +16,12 @@ public class DoubleSortDescMap<K, V extends Double> extends TreeMap<K, V>
     {
         @Override
         public int compare(Object key1, Object key2) {
-
-            return sortValuesMap.get(key2).compareTo(sortValuesMap.get(key1));
+            int compareValue = sortValuesMap.get(key2).compareTo(sortValuesMap.get(key1));
+            if(compareValue == 0){
+               return 1;
+            }else{
+                return  compareValue;
+            }
         }
     };
 
@@ -58,7 +62,8 @@ public class DoubleSortDescMap<K, V extends Double> extends TreeMap<K, V>
 
     public V put(K key, V value) {
         sortValuesMap.put(key, value);
-        return realMap.put(key, value);
+        V returnV = realMap.put(key, value);
+        return returnV;
     }
 
     public V remove(Object key) {
