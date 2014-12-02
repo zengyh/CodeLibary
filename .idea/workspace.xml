@@ -6,15 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/table/demo/demo.jsp" afterPath="$PROJECT_DIR$/web/js/table/demo/demo.jsp" />
+    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="&#10;    添加自定义个一个按照put进来的顺序排序的Map">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/support/DoubleSortAscMap.java" afterPath="$PROJECT_DIR$/src/support/DoubleSortAscMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/support/DoubleSortDescMap.java" afterPath="$PROJECT_DIR$/src/support/DoubleSortDescMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/support/FloatSortAscMap.java" afterPath="$PROJECT_DIR$/src/support/FloatSortAscMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/support/FloatSortDescMap.java" afterPath="$PROJECT_DIR$/src/support/FloatSortDescMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/support/IntegerSortAscMap.java" afterPath="$PROJECT_DIR$/src/support/IntegerSortAscMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/support/IntegerSortDescMap.java" afterPath="$PROJECT_DIR$/src/support/IntegerSortDescMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\workspace\CodeLibary\web\js\table\table.js" afterPath="$PROJECT_DIR$/web/js/table/tablecolor.js" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1414646514575" ignored="false" />
-    <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410669952979" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417485254933" ignored="false" />
+    <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417421351180" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/busin/stockresearch/service/StockResearchServiceFactory.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408094014934" ignored="false" />
@@ -120,6 +125,17 @@
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/org/busin/service/impl/OrgServiceImpl.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1413789013279" ignored="false" />
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/web/etf/js/table/table.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1414645718283" ignored="false" />
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/web/etf/js/etf-index-distinct-show.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1414645791812" ignored="false" />
+    <file path="/NotSortMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417421251362" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/NumericSortAscMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417421296908" ignored="false" />
+    <file path="/SortByValueMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417421281410" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/stockrecommend/support/uitls/StockUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417421411188" ignored="false" />
+    <file path="/StockUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417421408491" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/NotSortMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417421252112" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/NumericSortDescMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417422270449" ignored="false" />
+    <file path="/NumericSortDescMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417422255308" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/DoubleSortAscMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417431647609" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/FloatSortAscMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417431673708" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/IntegerSortAscMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417431698049" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,12 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/escape.tld" />
-        <option value="$PROJECT_DIR$/web/common.jspf" />
-        <option value="$PROJECT_DIR$/web/js/syntaxHighliter/demo/demo.jsp" />
-        <option value="$PROJECT_DIR$/web/images/dd.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/makeImage/makeContentImage.jsp" />
-        <option value="$PROJECT_DIR$/src/utils/MakeContentImage.java" />
         <option value="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" />
         <option value="$PROJECT_DIR$/src/ui/java/MJTextField.java" />
         <option value="$PROJECT_DIR$/web/js/browser/Browser.js" />
@@ -218,6 +228,12 @@
         <option value="$PROJECT_DIR$/src/utils/DateUtils.java" />
         <option value="$PROJECT_DIR$/src/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/web/js/table/demo/demo.jsp" />
+        <option value="$PROJECT_DIR$/src/support/NoSortMap.java" />
+        <option value="$PROJECT_DIR$/src/support/NotSortMap.java" />
+        <option value="$PROJECT_DIR$/src/support/NumericSortDescMap.java" />
+        <option value="$PROJECT_DIR$/src/support/FloatSortDescMap.java" />
+        <option value="$PROJECT_DIR$/src/support/IntegerSortDescMap.java" />
+        <option value="$PROJECT_DIR$/src/support/FloatSortAscMap.java" />
       </list>
     </option>
   </component>
@@ -296,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,59 +326,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeLibary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeLibary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeLibary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeLibary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
+              <option name="myItemId" value="support" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,20 +342,21 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="105" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="128" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="121" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="121" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="921" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="909" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="123" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="121" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
@@ -396,26 +365,29 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="options.lastSelected" value="vcs.Git" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="support" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\CodeLibary\src\support" />
       <recent name="E:\workspace\CodeLibary\web\js\table" />
       <recent name="E:\workspace\CodeLibary\web\ui\rectangle" />
       <recent name="E:\workspace\CodeLibary\web\images" />
       <recent name="E:\workspace\CodeLibary\src\ui\java" />
-      <recent name="E:\workspace\CodeLibary\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\CodeLibary\web\js\menu\demo" />
@@ -518,6 +490,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -546,19 +531,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -581,13 +553,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -607,6 +572,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -871,7 +843,35 @@
       <created>1414645907810</created>
       <updated>1414645907810</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="将 js/table/table.js  的名字改为 tablecolor.js">
+      <created>1414646620986</created>
+      <updated>1414646620986</updated>
+    </task>
+    <task id="LOCAL-00023" summary="&#10;    添加自定义个一个按照put进来的顺序排序的Map">
+      <created>1415946596565</created>
+      <updated>1415946596565</updated>
+    </task>
+    <task id="LOCAL-00024" summary="&#10;  修改NortSortMap.java&#10;">
+      <created>1417420502375</created>
+      <updated>1417420502375</updated>
+    </task>
+    <task id="LOCAL-00025" summary="  &#10;  修改NortSortMap.java&#10;">
+      <created>1417421231810</created>
+      <updated>1417421231810</updated>
+    </task>
+    <task id="LOCAL-00026" summary="&#10;   &#10;     添加两个按照value升序或降序排序的Map，value都必须是Integer类型">
+      <created>1417422436500</created>
+      <updated>1417422436500</updated>
+    </task>
+    <task id="LOCAL-00027" summary="&#10;   1、添加排序的Map&#10;   &#10;   2、删除 NumericSortAscMap.java和NumericSortDescMap.java">
+      <created>1417423867480</created>
+      <updated>1417423867480</updated>
+    </task>
+    <task id="LOCAL-00028" summary="  &#10;    修改排序的Map，解决相同Value值的Put不进去的Bug">
+      <created>1417431791206</created>
+      <updated>1417431791207</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -901,7 +901,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5617597" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942264" sideWeight="0.25913045" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5431472" sideWeight="0.62082064" order="3" side_tool="false" content_ui="tabs" />
@@ -916,11 +915,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027355" sideWeight="0.67005074" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027355" sideWeight="0.43824026" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5465313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.49422634" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -965,7 +965,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="table.js 进行了优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="  &#10;    修改排序的Map，解决相同Value值的Put不进去的Bug" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -995,6 +995,13 @@
     <MESSAGE value="修改StringUtils.java工具类" />
     <MESSAGE value="修改了表格隔行换色&#10;&#10;1、table.js 进行了优化，可以不设置行选择时的颜色。" />
     <MESSAGE value="table.js 进行了优化" />
+    <MESSAGE value="将 js/table/table.js  的名字改为 tablecolor.js" />
+    <MESSAGE value="&#10;    添加自定义个一个按照put进来的顺序排序的Map" />
+    <MESSAGE value="&#10;  修改NortSortMap.java&#10;" />
+    <MESSAGE value="  &#10;  修改NortSortMap.java&#10;" />
+    <MESSAGE value="&#10;   &#10;     添加两个按照value升序或降序排序的Map，value都必须是Integer类型" />
+    <MESSAGE value="&#10;   1、添加排序的Map&#10;   &#10;   2、删除 NumericSortAscMap.java和NumericSortDescMap.java" />
+    <MESSAGE value="  &#10;    修改排序的Map，解决相同Value值的Put不进去的Bug" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1038,29 +1045,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/mail/EMailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-1.3321168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/mail/ConnectMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/mail/EmailUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="-0.77554744" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/ui/rectangle/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="42" selection-start="947" selection-end="947" vertical-scroll-proportion="0.97276264" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MacUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="47" selection-start="597" selection-end="620" vertical-scroll-proportion="0.035650622" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/demo.jsp">
@@ -1110,16 +1097,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/table/tablecolor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="282" selection-end="282" vertical-scroll-proportion="0.34124088">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="11" column="19" selection-start="282" selection-end="282" vertical-scroll-proportion="0.34124088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/table/demo/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="164" selection-end="164" vertical-scroll-proportion="0.03307393">
+        <state line="7" column="14" selection-start="164" selection-end="164" vertical-scroll-proportion="0.03307393" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/MacUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="47" selection-start="597" selection-end="620" vertical-scroll-proportion="0.035650622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/NotSortMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="44" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.24598931">
+          <folding>
+            <element signature="e#361#550#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/FloatSortAscMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/DoubleSortAscMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

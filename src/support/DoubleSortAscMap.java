@@ -16,6 +16,9 @@ public class DoubleSortAscMap<K, V extends Double> extends TreeMap<K, V>
     {
         @Override
         public int compare(Object key1, Object key2) {
+            if(key1.equals(key2)){
+                return 0;
+            }
             int compareValue = sortValuesMap.get(key1).compareTo(sortValuesMap.get(key2));
             if (compareValue == 0) {
                 return 1;

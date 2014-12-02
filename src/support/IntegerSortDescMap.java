@@ -16,6 +16,9 @@ public class IntegerSortDescMap<K, V extends Integer> extends TreeMap<K, V>
     {
         @Override
         public int compare(Object key1, Object key2) {
+            if(key1.equals(key2)){
+                return 0;
+            }
             int compareValue = sortValuesMap.get(key2).compareTo(sortValuesMap.get(key1));
             if (compareValue == 0) {
                 return 1;
