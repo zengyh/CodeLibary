@@ -4,6 +4,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 文件名称: DateUtils.java
@@ -151,6 +153,101 @@ public class DateUtils {
 
         return dateArr;
 
+    }
+
+    /**
+     * 获取一年中的四季开始和结束日期
+     * @param n  若n=0则表示获取今年的，若n=1则获取明年，若n=-1则获取去年的
+     * @return value格式为yyyyMMddHHmmss ，所有的key如下：
+     *         key=date1_1 则表示一季度开始日期
+     *         key=date1_2 则表示一季度结束日期
+     *         key=date2_1 则表示二季度开始日期
+     *         key=date2_2 则表示二季度结束日期
+     *         key=date3_1 则表示三季度开始日期
+     *         key=date3_2 则表示三季度结束日期
+     *         key=date4_1 则表示四季度开始日期
+     *         key=date4_2 则表示四季度结束日期
+     */
+    public static Map<String,String> getFourQuarterDateMap(int n){
+        String date1_1 = "";  //一季度开始日期  格式为yyyyMMddHHmmss
+        String date1_2 = "";  //一季度结束日期  格式为yyyyMMddHHmmss
+        String date2_1 = "";  //二季度结束日期  格式为yyyyMMddHHmmss
+        String date2_2 = "";  //二季度结束日期  格式为yyyyMMddHHmmss
+        String date3_1 = "";  //三季度开始日期  格式为yyyyMMddHHmmss
+        String date3_2 = "";  //三季度结束日期  格式为yyyyMMddHHmmss
+        String date4_1 = "";  //四季度开始日期  格式为yyyyMMddHHmmss
+        String date4_2 = "";  //四季度结束日期  格式为yyyyMMddHHmmss
+        SimpleDateFormat timeFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.YEAR, n);
+        //一季度开始日期
+        calendar.set(Calendar.MONTH, 0);
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        date1_1 = timeFormat.format(calendar.getTime());
+        //一季度结束日期
+        calendar.set(Calendar.MONTH, 2);
+        calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        date1_2 = timeFormat.format(calendar.getTime());
+        //二季度开始日期
+        calendar.set(Calendar.MONTH, 3);
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        date2_1 = timeFormat.format(calendar.getTime());
+        //二季度结束日期
+        calendar.set(Calendar.MONTH, 5);
+        calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        date2_2 = timeFormat.format(calendar.getTime());
+        //三季度开始日期
+        calendar.set(Calendar.MONTH, 6);
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        date3_1 = timeFormat.format(calendar.getTime());
+        //三季度结束日期
+        calendar.set(Calendar.MONTH, 8);
+        calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        date3_2 = timeFormat.format(calendar.getTime());
+        //四季度开始日期
+        calendar.set(Calendar.MONTH, 9);
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        date4_1 = timeFormat.format(calendar.getTime());
+        //四季度结束日期
+        calendar.set(Calendar.MONTH, 11);
+        calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        date4_2 = timeFormat.format(calendar.getTime());
+
+        Map<String,String> returnMap = new HashMap<String,String>();
+        returnMap.put("date1_1", date1_1);
+        returnMap.put("date1_2", date1_2);
+        returnMap.put("date2_1", date2_1);
+        returnMap.put("date2_2", date2_2);
+        returnMap.put("date3_1", date3_1);
+        returnMap.put("date3_2", date3_2);
+        returnMap.put("date4_1", date4_1);
+        returnMap.put("date4_2", date4_2);
+
+        return returnMap;
     }
     
 }
