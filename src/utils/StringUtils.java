@@ -1,5 +1,11 @@
 package utils;
 
+import org.hibernate.lob.SerializableBlob;
+import org.hibernate.lob.SerializableClob;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -232,6 +238,39 @@ public class StringUtils {
 
     public static String getStringValue(String str){
         return (str == null || "null".equals(str)) ? "" : str.trim();
+    }
+
+    public static String getClob( SerializableClob c ) {
+        Reader reader;
+        StringBuffer sb = new StringBuffer();
+        try {
+            reader = c.getCharacterStream();
+            BufferedReader br = new BufferedReader( reader );
+            String temp = null;
+            while ( ( temp = br.readLine() ) != null ) {
+                sb.append( temp );
+            }
+        } catch ( Exception e ) {
+            e.printStackTrace();
+        }
+        return sb.toString();
+    }
+
+
+    public static String getBlob( SerializableBlob b ) {
+        Reader reader;
+        StringBuffer sb = new StringBuffer();
+        try {
+            reader = new InputStreamReader(b.getBinaryStream());
+            BufferedReader br = new BufferedReader( reader );
+            String temp = null;
+            while ( ( temp = br.readLine() ) != null ) {
+                sb.append( temp );
+            }
+        } catch ( Exception e ) {
+            e.printStackTrace();
+        }
+        return sb.toString();
     }
 
 }
