@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class IntegerSortAscMap<K, V extends Integer> extends TreeMap<K, V>
 {
-    private Map<K, Integer> sortValuesMap = new HashMap<K, Integer>();
+    private Map<K, V> sortValuesMap = new HashMap<K, V>();
 
     private Comparator<K> hiddenComparator = new Comparator<K>()
     {
@@ -88,15 +88,15 @@ public class IntegerSortAscMap<K, V extends Integer> extends TreeMap<K, V>
     }
 
     public boolean containsKey(Object key) {
-        return realMap.containsKey(key);
+        return sortValuesMap.containsKey(key);
     }
 
     public boolean containsValue(Object value) {
-        return realMap.containsValue(value);
+        return sortValuesMap.containsValue(value);
     }
 
     public V get(Object key) {
-        return realMap.get(key);
+        return sortValuesMap.get(key);
     }
 
     public Comparator<? super K> comparator() {
@@ -104,11 +104,11 @@ public class IntegerSortAscMap<K, V extends Integer> extends TreeMap<K, V>
     }
 
     public K firstKey() {
-        return realMap.firstKey();
+        return firstEntry().getKey();
     }
 
     public K lastKey() {
-        return realMap.lastKey();
+        return lastEntry().getKey();
     }
 
     public Map.Entry<K, V> firstEntry() {

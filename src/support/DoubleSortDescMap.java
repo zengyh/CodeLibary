@@ -65,8 +65,7 @@ public class DoubleSortDescMap<K, V extends Double> extends TreeMap<K, V>
 
     public V put(K key, V value) {
         sortValuesMap.put(key, value);
-        V returnV = realMap.put(key, value);
-        return returnV;
+        return realMap.put(key, value);
     }
 
     public V remove(Object key) {
@@ -89,15 +88,15 @@ public class DoubleSortDescMap<K, V extends Double> extends TreeMap<K, V>
     }
 
     public boolean containsKey(Object key) {
-        return realMap.containsKey(key);
+        return sortValuesMap.containsKey(key);
     }
 
     public boolean containsValue(Object value) {
-        return realMap.containsValue(value);
+        return sortValuesMap.containsValue(value);
     }
 
     public V get(Object key) {
-        return realMap.get(key);
+        return sortValuesMap.get(key);
     }
 
     public Comparator<? super K> comparator() {
@@ -105,11 +104,11 @@ public class DoubleSortDescMap<K, V extends Double> extends TreeMap<K, V>
     }
 
     public K firstKey() {
-        return realMap.firstKey();
+        return firstEntry().getKey();
     }
 
     public K lastKey() {
-        return realMap.lastKey();
+        return lastEntry().getKey();
     }
 
     public Map.Entry<K, V> firstEntry() {
