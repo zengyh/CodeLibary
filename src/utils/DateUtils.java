@@ -249,5 +249,29 @@ public class DateUtils {
 
         return returnMap;
     }
+
+    /**
+     * 获取两个日期之间相差的天数
+     * @param beginDate
+     * @param endDate
+     * @return
+     */
+    public static long getDatesBetween(Date beginDate,Date endDate){
+        long margin = 0;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+
+        try {
+            beginDate = dateFormat.parse(dateFormat.format(beginDate));
+            endDate = dateFormat.parse(dateFormat.format(endDate));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        margin = endDate.getTime() - beginDate.getTime();
+
+        margin = margin/(1000*60*60*24);
+
+        return margin;
+    }
     
 }
