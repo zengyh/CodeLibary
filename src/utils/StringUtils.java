@@ -3,9 +3,7 @@ package utils;
 import org.hibernate.lob.SerializableBlob;
 import org.hibernate.lob.SerializableClob;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.Reader;
+import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -271,6 +269,21 @@ public class StringUtils {
             e.printStackTrace();
         }
         return sb.toString();
+    }
+
+
+    /**
+     * 获取异常信息
+     * @param e
+     * @return
+     */
+    public static String getExceptionMessage(Exception e){
+
+        StringWriter stringWriter = new StringWriter();
+        PrintWriter printWriter = new PrintWriter(stringWriter);
+        e.printStackTrace(printWriter);
+
+        return stringWriter.toString();
     }
 
 }

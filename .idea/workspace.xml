@@ -7,12 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/utils/DateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tag/PageLoadTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tag/test/PageLoadTagTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/tag/demo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pageload.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/StringUtils.java" afterPath="$PROJECT_DIR$/src/utils/StringUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\workspace\CodeLibary\src\utils\tag\IncludeTag.java" afterPath="$PROJECT_DIR$/src/tag/uitls/IncludeTag.java" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417586082864" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419493978297" ignored="false" />
     <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417507135527" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
@@ -23,7 +28,7 @@
     <file path="/d.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408163300321" ignored="false" />
     <file path="/web.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408185116872" ignored="false" />
     <file path="/SoapClient.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408165702650" ignored="false" />
-    <file path="/StringUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1413789145419" ignored="false" />
+    <file path="/StringUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419495439410" ignored="false" />
     <file path="/IncludeTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408179056837" ignored="false" />
     <file path="/IDatabaseBackupService.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408181593027" ignored="false" />
     <file path="/TabDatabaseBackup.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408181544506" ignored="false" />
@@ -90,9 +95,9 @@
     <file path="/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/common/utils/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="/makeContentImage.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411276751830" ignored="false" />
-    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411276637056" ignored="false" />
+    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419494267104" ignored="false" />
     <file path="/demoHead.html" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410620909144" ignored="false" />
-    <file path="/demo.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1414646571444" ignored="false" />
+    <file path="/demo.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419496708758" ignored="false" />
     <file path="/EscapeHtmlTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410670353006" ignored="false" />
     <file path="/escape.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410670780348" ignored="false" />
     <file path="/MakeContentImage.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411277187578" ignored="false" />
@@ -132,6 +137,10 @@
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/IntegerSortAscMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417431698049" ignored="false" />
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/web/rtfund/stockrecommend/action/ShowPagedRtStockRecommendLogAction2.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417507149924" ignored="false" />
     <file path="/ShowPagedRtStockRecommendLogAction2.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417507149924" ignored="false" />
+    <file path="/pageload.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419494920164" ignored="false" />
+    <file path="/PageLoad.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419496179173" ignored="false" />
+    <file path="/StringUtilsTest.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419495693661" ignored="false" />
+    <file path="/PageLoadTagTest.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419496359352" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,12 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" />
-        <option value="$PROJECT_DIR$/src/ui/java/MJTextField.java" />
-        <option value="$PROJECT_DIR$/web/js/browser/Browser.js" />
-        <option value="$PROJECT_DIR$/web/ui/rectangle/Untitled-2.html" />
-        <option value="$PROJECT_DIR$/web/ui/rectangle/demo3.html" />
-        <option value="$PROJECT_DIR$/web/ui/rectangle/demo2.html" />
         <option value="$PROJECT_DIR$/web/ui/rectangle/demo1.html" />
         <option value="$PROJECT_DIR$/web/js/table/demo/demo.jsp" />
         <option value="$PROJECT_DIR$/src/support/NoSortMap.java" />
@@ -228,8 +231,14 @@
         <option value="$PROJECT_DIR$/src/support/FloatSortDescMap.java" />
         <option value="$PROJECT_DIR$/src/support/IntegerSortDescMap.java" />
         <option value="$PROJECT_DIR$/src/support/FloatSortAscMap.java" />
-        <option value="$PROJECT_DIR$/src/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/utils/StringUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/tag/PageLoad.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pageload.tld" />
+        <option value="$PROJECT_DIR$/web/tag/demo/demo.jsp" />
+        <option value="$PROJECT_DIR$/web/tag/demo.jsp" />
+        <option value="$PROJECT_DIR$/src/tag/test/PageLoadTagTest.java" />
       </list>
     </option>
   </component>
@@ -279,6 +288,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,6 +318,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -325,27 +386,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uitls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="105" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="128" />
-    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="128" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="121" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="131" />
@@ -361,18 +482,18 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -472,6 +593,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="StringUtilsTest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="utils.StringUtilsTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeLibary" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -484,19 +627,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -527,6 +657,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -549,6 +692,13 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -568,13 +718,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -710,17 +853,19 @@
         </option>
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat7.0" />
       <item index="1" class="java.lang.String" itemvalue="Application.SoapClient" />
       <item index="2" class="java.lang.String" itemvalue="Application.HTMLUnitUtils" />
       <item index="3" class="java.lang.String" itemvalue="Application.HttpClientUtilsTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringUtilsTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.HttpClientUtilsTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HTMLUnitUtils" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SoapClient" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.StringUtilsTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HttpClientUtilsTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HTMLUnitUtils" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SoapClient" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -883,7 +1028,11 @@
       <created>1417511826318</created>
       <updated>1417511826319</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="  &#10;    修改DateUtils.java工具类">
+      <created>1417586121653</created>
+      <updated>1417586121653</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -907,12 +1056,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5617597" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942264" sideWeight="0.25913045" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5431472" sideWeight="0.62082064" order="3" side_tool="false" content_ui="tabs" />
@@ -921,19 +1071,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6937394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29027355" sideWeight="0.5566836" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027355" sideWeight="0.6717428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25151977" sideWeight="0.4568528" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5465313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282572" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.49422634" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1058,89 +1207,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/ui/rectangle/demo1.html">
+    <entry file="file://$PROJECT_DIR$/src/support/FloatSortDescMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="42" selection-start="947" selection-end="947" vertical-scroll-proportion="0.97276264" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/demo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="579" selection-end="579" vertical-scroll-proportion="0.5330739" />
+        <state line="10" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.27919707">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/tool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="13" selection-start="3422" selection-end="3426" vertical-scroll-proportion="0.09943715" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.121212125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/excel/action/CharacterUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.124087594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/excel/action/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.24242425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="16" selection-start="5129" selection-end="5137" vertical-scroll-proportion="7.8485403" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/demo/demo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.29766536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/table/tablecolor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="282" selection-end="282" vertical-scroll-proportion="0.34124088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/table/demo/demo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="164" selection-end="164" vertical-scroll-proportion="0.03307393" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MacUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="47" selection-start="597" selection-end="620" vertical-scroll-proportion="0.035650622" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/support/NotSortMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="44" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.24598931">
+        <state line="222" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="6.7272725">
           <folding>
-            <element signature="e#361#550#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/support/FloatSortAscMap.java">
+    <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+        <state line="14" column="37" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.46303502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/demo/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="304" selection-end="304" vertical-scroll-proportion="0.23929961">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tag/uitls/IncludeTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="235" selection-end="235" vertical-scroll-proportion="0.18613139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="486" column="6" selection-start="14212" selection-end="14212" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jars/common/slf4j-api-1.5.6.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="158" selection-end="158" vertical-scroll-proportion="0.1625239">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jars/common/slf4j-api-1.5.6.jar!/org/slf4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="36" selection-start="276" selection-end="276" vertical-scroll-proportion="-1.3955224">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="5" selection-start="7262" selection-end="7262" vertical-scroll-proportion="1.4963504" />
+        <state line="267" column="23" selection-start="7103" selection-end="7103" vertical-scroll-proportion="0.13138686">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/DateUtils.java">
+    <entry file="jar://D:/app/Java/JDK1.7/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="5" selection-start="8716" selection-end="8716" vertical-scroll-proportion="0.9616788">
+        <state line="1613" column="18" selection-start="67863" selection-end="67863" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/Java/JDK1.7/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="585" column="18" selection-start="24026" selection-end="24026" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tag/PageLoadTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="66" selection-start="889" selection-end="900" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#7684#7699#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pageload.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="384" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tag/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="420" selection-end="420" vertical-scroll-proportion="0.48387095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tag/test/PageLoadTagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="71" selection-start="314" selection-end="314" vertical-scroll-proportion="0.43430656">
+          <folding />
         </state>
       </provider>
     </entry>
