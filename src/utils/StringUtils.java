@@ -4,6 +4,7 @@ import org.hibernate.lob.SerializableBlob;
 import org.hibernate.lob.SerializableClob;
 
 import java.io.*;
+import java.text.NumberFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -284,6 +285,20 @@ public class StringUtils {
         e.printStackTrace(printWriter);
 
         return stringWriter.toString();
+    }
+
+
+    /**
+     * 返回某数字的百分比形式
+     * @param object  要转换成百分比形式的数字
+     * @param n       转换成百分比形式之后，精确到小数点之后多少位
+     * @return
+     */
+    public static String getPercentStr(Object object, int n){
+        NumberFormat nf = NumberFormat.getPercentInstance();
+        nf.setMinimumFractionDigits( n );   //转换成百分比形式之后，精确到小数点之后多少位
+
+        return nf.format(object);
     }
 
 }
