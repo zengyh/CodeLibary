@@ -14,7 +14,7 @@
    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
    URL backgroundUrl = new URL( basePath+"/images/background.jpg" );
    try{
-          new MakeContentImage("人生",backgroundUrl).write( response.getOutputStream() );
+          new MakeContentImage("人生",backgroundUrl, 50, 100).write( response.getOutputStream() );
    }catch(Exception e){
         //e.printStackTrace();
    }
