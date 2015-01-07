@@ -213,8 +213,8 @@ var MENU = function() {
 				show();*/
 				
 				show();
-				var left = e.x || e.pageX;
-				var top = e.y || e.pageY;
+				var left = e.x || e.pageX || 0;
+				var top = e.y || e.pageY || 0;
 				if(ulDOM.offsetWidth + left > document.body.offsetWidth){
 					left = document.body.offsetWidth - ulDOM.offsetWidth -10;
 					left = left < 0 ? 0 : left;
