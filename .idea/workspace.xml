@@ -6,18 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="  &#10;    1、StringUtils.java 添加了getExceptionMessage方法&#10;    &#10;    2、添加 pageload.tld 标签">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tag/ImageScale.java" />
+    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="  &#10;      添加了自定义的展示图片的标签image.tld，该标签的用法：&#10;      &#10;      1、缩放展示图片&#10;      &#10;      2、链接悬停预览图片">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tag/ImagePreviewLinkTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tag/ImageScaleTag.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/tag/image/demo.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/image.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MakeContentImage.java" afterPath="$PROJECT_DIR$/src/utils/MakeContentImage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" afterPath="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\workspace\CodeLibary\web\tag\demo.jsp" afterPath="$PROJECT_DIR$/web/tag/pageload/demo.jsp" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420608367106" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420695492388" ignored="false" />
     <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420448002242" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
@@ -81,7 +81,7 @@
     <file path="/MacUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408792134013" ignored="false" />
     <file path="/DateUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408792233966" ignored="false" />
     <file path="/ParameterUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408793177947" ignored="false" />
-    <file path="/a.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410399788546" ignored="false" />
+    <file path="/a.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420682344648" ignored="false" />
     <file path="/sample.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408793111673" ignored="false" />
     <file path="/EmailUtilsTest.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408793341688" ignored="false" />
     <file path="/CookieUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408793495295" ignored="false" />
@@ -95,9 +95,9 @@
     <file path="/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/common/utils/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="/makeContentImage.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411276751830" ignored="false" />
-    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419494267104" ignored="false" />
+    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420621465765" ignored="false" />
     <file path="/demoHead.html" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410620909144" ignored="false" />
-    <file path="/demo.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419496708758" ignored="false" />
+    <file path="/demo.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420696767244" ignored="false" />
     <file path="/EscapeHtmlTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410670353006" ignored="false" />
     <file path="/escape.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410670780348" ignored="false" />
     <file path="/MakeContentImage.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420610479918" ignored="false" />
@@ -137,13 +137,23 @@
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/IntegerSortAscMap.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417431698049" ignored="false" />
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/web/rtfund/stockrecommend/action/ShowPagedRtStockRecommendLogAction2.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417507149924" ignored="false" />
     <file path="/ShowPagedRtStockRecommendLogAction2.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1417507149924" ignored="false" />
-    <file path="/pageload.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419494920164" ignored="false" />
+    <file path="/pageload.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420685708821" ignored="false" />
     <file path="/PageLoad.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419496179173" ignored="false" />
     <file path="/StringUtilsTest.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419495693661" ignored="false" />
     <file path="/PageLoadTagTest.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1419496359352" ignored="false" />
-    <file path="/image.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420608567995" ignored="false" />
-    <file path="/ImageScale.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420609146997" ignored="false" />
+    <file path="/image.tld" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420696499051" ignored="false" />
+    <file path="/ImageScale.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420617577514" ignored="false" />
     <file path="/d.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420609345823" ignored="false" />
+    <file path="/ImagePreLink.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420618359083" ignored="false" />
+    <file path="/ImagePreLinkTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420626589980" ignored="false" />
+    <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/web/css/innertable.css" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420623068836" ignored="false" />
+    <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/web/includes/innertableheader.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420623126364" ignored="false" />
+    <file path="/ImagePreviewLinkTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420695730996" ignored="false" />
+    <file path="/a.feature" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420682352256" ignored="false" />
+    <file path="/a.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420682374517" ignored="false" />
+    <file path="/Tag Library Descriptor.txt.ft" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420683106170" ignored="false" />
+    <file path="/Test.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420685312938" ignored="false" />
+    <file path="/ImageScaleTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420691321900" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +173,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -198,6 +207,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -207,48 +217,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="demo.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/tag/image/demo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="235" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.6031128">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="image.tld" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/image.tld">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+            <state line="85" column="70" selection-start="3131" selection-end="3131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageScale.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tag/ImageScale.java">
+      <file leaf-file-name="ImagePreviewLinkTag.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tag/ImagePreviewLinkTag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="43" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/tag/image/demo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="-6.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/demo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="58" selection-start="595" selection-end="595" vertical-scroll-proportion="0.52918285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeContentImage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/MakeContentImage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="40" selection-start="2817" selection-end="2817" vertical-scroll-proportion="-9.357142">
+            <state line="134" column="41" selection-start="6154" selection-end="6154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -274,22 +264,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/support/IntegerSortDescMap.java" />
-        <option value="$PROJECT_DIR$/src/support/FloatSortAscMap.java" />
-        <option value="$PROJECT_DIR$/src/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/src/utils/StringUtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/tag/PageLoad.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pageload.tld" />
-        <option value="$PROJECT_DIR$/web/tag/demo/demo.jsp" />
-        <option value="$PROJECT_DIR$/web/tag/demo.jsp" />
         <option value="$PROJECT_DIR$/src/tag/test/PageLoadTagTest.java" />
         <option value="$PROJECT_DIR$/src/utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/image.tld" />
-        <option value="$PROJECT_DIR$/src/tag/ImageScale.java" />
         <option value="$PROJECT_DIR$/web/tag/image/d.jsp" />
-        <option value="$PROJECT_DIR$/web/tag/image/demo.jsp" />
         <option value="$PROJECT_DIR$/src/utils/MakeContentImage.java" />
+        <option value="$PROJECT_DIR$/src/tag/ImageScale.java" />
+        <option value="$PROJECT_DIR$/src/tag/ImagePreLink.java" />
+        <option value="$PROJECT_DIR$/web/js/menu/MENU.js" />
         <option value="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" />
+        <option value="$PROJECT_DIR$/src/tag/ImagePreLinkTag.java" />
+        <option value="$PROJECT_DIR$/web/tag/image/aa.jsp" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pageload.tld" />
+        <option value="$PROJECT_DIR$/src/tag/ImageScaleTag.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/image.tld" />
+        <option value="$PROJECT_DIR$/src/tag/ImagePreviewLinkTag.java" />
+        <option value="$PROJECT_DIR$/web/tag/image/demo.jsp" />
       </list>
     </option>
   </component>
@@ -305,6 +295,40 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JavaDoc</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -345,6 +369,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="CodeLibary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -406,10 +434,6 @@
               <option name="myItemId" value="tag" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -443,15 +467,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="makeImage" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,24 +484,28 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="105" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="128" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="120" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="120" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="131" />
@@ -501,18 +521,18 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propCompiler" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -534,28 +554,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat7.0">
-    <configuration default="false" name="SoapClient" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="webservice.net.ilkj.soap.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="webservice.net.ilkj.soap.client.SoapClient" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CodeLibary" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="HTMLUnitUtils" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -656,6 +654,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeLibary" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -668,6 +683,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -698,19 +726,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -733,13 +748,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -759,6 +767,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -896,19 +911,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat7.0" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SoapClient" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HTMLUnitUtils" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HttpClientUtilsTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringUtilsTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.StringUtils" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HTMLUnitUtils" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HttpClientUtilsTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringUtilsTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringUtils" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StringUtils" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringUtilsTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HttpClientUtilsTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HTMLUnitUtils" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SoapClient" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StringUtils" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringUtilsTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HttpClientUtilsTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HTMLUnitUtils" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1083,7 +1098,19 @@
       <created>1420448230157</created>
       <updated>1420448230157</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="&#10;    修改制作图片的DEMO">
+      <created>1420610633480</created>
+      <updated>1420610633480</updated>
+    </task>
+    <task id="LOCAL-00037" summary="  &#10;  &#10;       修改菜单控件">
+      <created>1420620655822</created>
+      <updated>1420620655822</updated>
+    </task>
+    <task id="LOCAL-00038" summary="  &#10;   &#10;     解决pageload.tld 文件乱码问题">
+      <created>1420686266420</created>
+      <updated>1420686266420</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1107,18 +1134,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5617597" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942264" sideWeight="0.25913045" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5431472" sideWeight="0.62082064" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5431472" sideWeight="0.6132219" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52284265" sideWeight="0.37386018" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5431472" sideWeight="0.38145897" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64128596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1134,6 +1160,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.49422634" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1177,7 +1204,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="  &#10;    修改StringUtils.java 工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="  &#10;   &#10;     解决pageload.tld 文件乱码问题" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1190,9 +1217,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.8151042" />
-    <MESSAGE value="首次提交代码" />
-    <MESSAGE value="添加代码高亮插件syntaxHighliter的来演示代码" />
-    <MESSAGE value="1、修改了菜单控件的demo&#10;2、添加了SyntaxHighlighter控件的使用demo" />
     <MESSAGE value="1、修改背景图片制作例子，同时也添加了代码高亮显示&#10;&#10;2、修改表格隔行换色的演示例子，添加了代码高亮显示" />
     <MESSAGE value="1、修改背景图片制作例子&#10;" />
     <MESSAGE value="添加了自定义可以复制粘贴的JTextFiled" />
@@ -1215,6 +1239,9 @@
     <MESSAGE value="  &#10;    修改DateUtils.java工具类" />
     <MESSAGE value="  &#10;    1、StringUtils.java 添加了getExceptionMessage方法&#10;    &#10;    2、添加 pageload.tld 标签" />
     <MESSAGE value="  &#10;    修改StringUtils.java 工具类" />
+    <MESSAGE value="&#10;    修改制作图片的DEMO" />
+    <MESSAGE value="  &#10;  &#10;       修改菜单控件" />
+    <MESSAGE value="  &#10;   &#10;     解决pageload.tld 文件乱码问题" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1253,117 +1280,117 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="CodeLibary" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="CodeLibary" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/web/js/tool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="52" selection-start="7618" selection-end="7618" vertical-scroll-proportion="0.48722628">
-          <folding />
-        </state>
+        <state line="222" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="6.7201424" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pageload.tld">
+    <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="384" selection-end="407" vertical-scroll-proportion="0.13138686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/image.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../jars/j2ee/jsp-api.jar!/javax/servlet/jsp/JspContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="934" selection-end="943" vertical-scroll-proportion="0.5602294">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../jars/common/slf4j-api-1.5.6.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="34" selection-start="2006" selection-end="2012" vertical-scroll-proportion="0.75525814">
+        <state line="0" column="77" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/tag/pageload/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="420" selection-end="420" vertical-scroll-proportion="0.48387095">
+        <state line="15" column="21" selection-start="420" selection-end="420" vertical-scroll-proportion="0.48387095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/syntaxHighliter/demo/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="447" selection-end="725" vertical-scroll-proportion="0.37159532" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/menu/demo/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.844358" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/browser/Browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="14" selection-start="3814" selection-end="3814" vertical-scroll-proportion="0.16923077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="64" selection-start="147" selection-end="147" vertical-scroll-proportion="0.19354838" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotation/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.060606062">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tag/ImageScale.java">
+    <entry file="file://$PROJECT_DIR$/src/tag/PageLoadTag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="43" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/background.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/rectangle1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/tool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="0.3939394">
+        <state line="34" column="43" selection-start="749" selection-end="757" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pageload.tld">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="989" selection-end="989" vertical-scroll-proportion="0.3307393">
+        <state line="11" column="34" selection-start="419" selection-end="419" vertical-scroll-proportion="0.34124088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tag/ImageScaleTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="-1.1788322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="628" column="8" selection-start="18262" selection-end="18262" vertical-scroll-proportion="-0.030303031">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/image.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="70" selection-start="3131" selection-end="3131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tag/ImagePreviewLinkTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="41" selection-start="6154" selection-end="6154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/tag/image/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="-6.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/demo/demo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5466926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/app/Java/JDK1.7/src.zip!/java/awt/image/BufferedImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="13" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MakeContentImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="40" selection-start="2817" selection-end="2817" vertical-scroll-proportion="-9.357142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/makeImage/demo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="595" selection-end="595" vertical-scroll-proportion="0.52918285">
+        <state line="48" column="235" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.6031128">
           <folding />
         </state>
       </provider>
@@ -1380,6 +1407,17 @@
               <list>
                 <option value="0.2" />
                 <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
