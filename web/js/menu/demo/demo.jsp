@@ -22,8 +22,8 @@
         menu.init(thisDiv,"contextmenu");
         menu.addItem({id: "1",txt:"测试1" ,img:"/images/menu/1.JPG",enable: true,click: function(){alert("1");}});
         menu.addItem({id: "2",txt:"测试2" ,img:"/images/menu/4.jpg",enable: false});
-        menu.addItem({id: "3",txt:"测试2" ,enable: true});
-        menu.addItem({id: "4",txt:"测试2" ,img:"/images/menu/5.jpg",enable: true,click:function(){alert("5");}});
+        menu.addItem({id: "3",txt:"测试3" ,enable: true});
+        menu.addItem({id: "4",txt:"测试4" ,img:"/images/menu/5.jpg",enable: true,click:function(){alert("5");}});
         menu.setClickFunc("3" ,function(){alert("3");});
         menu.setClickFunc("2" ,function(){alert("2");});
 
@@ -57,8 +57,8 @@
             "        menu.init(thisDiv,\"contextmenu\");\n" +
             "        menu.addItem({id: \"1\",txt:\"测试1\" ,img:\"/images/menu/1.JPG\",enable: true,click: function(){alert(\"1\");}});\n" +
             "        menu.addItem({id: \"2\",txt:\"测试2\" ,img:\"/images/menu/4.jpg\",enable: false});\n" +
-            "        menu.addItem({id: \"3\",txt:\"测试2\" ,enable: true});\n" +
-            "        menu.addItem({id: \"4\",txt:\"测试2\" ,img:\"/images/menu/5.jpg\",enable: true,click:function(){alert(\"5\");}});\n" +
+            "        menu.addItem({id: \"3\",txt:\"测试3\" ,enable: true});\n" +
+            "        menu.addItem({id: \"4\",txt:\"测试4\" ,img:\"/images/menu/5.jpg\",enable: true,click:function(){alert(\"5\");}});\n" +
             "        menu.setClickFunc(\"3\" ,function(){alert(\"3\");});\n" +
             "        menu.setClickFunc(\"2\" ,function(){alert(\"2\");});\n" +
             "\n" +

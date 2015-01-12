@@ -144,16 +144,28 @@ var MENU = function() {
 	 * 阻止浏览器的默认事件行为
 	 * @param e 事件对象event
 	 */
-	function stopEventDefault(e) {  
-	     if (e && e.preventDefault) {//如果是FF下执行这个 
+	function stopEventDefault(e) {
+	     if (e && e.preventDefault) {//如果是FF下执行这个
 	         e.preventDefault(); 
 	     }else{  
 	         window.event.returnValue = false;//如果是IE下执行这个 
 	     } 
 	     return false; 
-	} 
-	
-	
+	}
+
+    /**
+     * 阻止事件冒泡
+     * @param e
+     */
+    function stopPropagation(e){
+        if (e.stopPropagation){
+            e.stopPropagation();
+        }else if(e.cancelBubble){
+            e.cancelBubble = true;
+        }
+    }
+
+
 	/**
 	 * 初始化菜单方式一
 	 * 
@@ -207,6 +219,7 @@ var MENU = function() {
 		// 定位事件
 		forEach(targetDOM,function(dom){
 			addEvent(dom,eventType,function(e){
+                e = e || window.event; //兼容老版本的IE
 /*				targetDOMClicked = this;
 				ulDOM.style.left = (e.x || e.pageX)+"px";
 				ulDOM.style.top = (e.y || e.pageY)+"px";
@@ -233,6 +246,7 @@ var MENU = function() {
 		// 其他事件源事件
 		forEach(getAllWindow(),function(win){
 			addEvent(win.document,"click",function(e){  //鼠标左键点击
+                e = e || window.event; //兼容老版本的IE
 				if(eventType != "click"){
 					hide();
 				}
@@ -244,6 +258,7 @@ var MENU = function() {
 				hide();
 			});
 			addEvent(win.document,"contextmenu",function(e){  //鼠标右键点击
+                e = e || window.event; //兼容老版本的IE
 				if(eventType != "contextmenu"){
 					hide();
 				}
@@ -354,32 +369,38 @@ var MENU = function() {
 			}
 		});
 
-		if(option.enable){
-			addEvent(liDOM,"click",function(){
-				hide();
-				if(targetDOMClicked){
-					targetDOMClicked.focus();
-				}
-				option.click.apply(this,arguments);
-			});
-			addEvent(liDOM,"contextmenu",function(){
-				hide();
-				if(targetDOMClicked){
-					targetDOMClicked.focus();
-				}
-				option.click.apply(this,arguments);
-			});
-			
-			addEvent(liDOM,"mouseover",function(){
-				this.style.backgroundColor="#FFEEC2";
-				liDOM.style.border="1px solid orange";
-			});
-			
-			addEvent(liDOM,"mouseout",function(){
-				this.style.backgroundColor="";
-				this.style.border="";
-			});
-		}
+        addEvent(liDOM, "click", function () {
+            hide();
+            if (targetDOMClicked) {
+                targetDOMClicked.focus();
+            }
+            if (option.enable) {
+                option.click.apply(this, arguments);
+            }
+        });
+        addEvent(liDOM, "contextmenu", function (e) {
+            e = e || window.event; //兼容老版本的IE
+            hide();
+            if (targetDOMClicked) {
+                targetDOMClicked.focus();
+            }
+            if (option.enable) {
+                option.click.apply(this, arguments);
+            }
+            stopEventDefault(e);
+        });
+        addEvent(liDOM, "mouseover", function () {
+            if (option.enable) {
+                this.style.backgroundColor = "#FFE1AC";
+            }else{
+                this.style.backgroundColor = "#D5D5D5";
+            }
+            //liDOM.style.border = "1px solid orange";
+        });
+        addEvent(liDOM, "mouseout", function () {
+            this.style.backgroundColor = "";
+            //this.style.border = "";
+        });
 		
 	}
 	
