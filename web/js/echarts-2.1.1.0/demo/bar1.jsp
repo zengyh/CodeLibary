@@ -32,7 +32,9 @@
                 var myChart = ec.init(document.getElementById('main'));
                 myChart.setOption({
                     tooltip: {
-                        trigger: 'axis'
+                        //trigger: 'axis',  //鼠标在图形上移动时出现竖线，并弹出冒泡框
+                        trigger: 'item',    //鼠标在图形上移动不会出现竖线，只有移动到对应的点（数据）才会弹出冒泡框，默认值是item
+                        show: true
                     },
                     legend: {
                         data: ['蒸发量', '降水量']
