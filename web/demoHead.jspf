@@ -1,4 +1,5 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/tool.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/event.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shCore.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shBrushXml.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/syntaxHighliter/shBrushJScript.js"></script>

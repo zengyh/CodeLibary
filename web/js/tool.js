@@ -214,23 +214,5 @@ function trim(str){
 }
 
 
-/**
- * 追加事件处理
- * @param e 要添加事件的DOM节点对象
- * @param event 事件类型，如"click"
- * @param func 事件触发的方法
- */
-function addEvent(e, event, func) {
-
-    if (e.addEventListener) {
-       e.addEventListener(event, func, false);
-
-   } else if (e.attachEvent) {
-       e.attachEvent( "on" + event, function() {
-           func.apply(e, arguments);  //让func函数里面的this指向e
-       });
-   }
-
-}
 
 

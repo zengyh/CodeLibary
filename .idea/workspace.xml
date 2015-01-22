@@ -7,12 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="      &#10;       添加echarts插件，一个图表制作插件。该插件是从GitHub社区下载&#10;       &#10;       的。以及添加该插件的demo">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/bar1.jsp" afterPath="$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/bar1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common.jspf" afterPath="$PROJECT_DIR$/web/common.jspf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/demoHead.jspf" afterPath="$PROJECT_DIR$/web/demoHead.jspf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/tool.js" afterPath="$PROJECT_DIR$/web/js/tool.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421631795024" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421907520356" ignored="false" />
     <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420448002242" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
@@ -150,6 +153,28 @@
     <file path="/Test.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420685312938" ignored="false" />
     <file path="/ImageScaleTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420691321900" ignored="false" />
     <file path="/innertable.css" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420698308761" ignored="false" />
+    <file path="/keybord.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421911037524" ignored="false" />
+    <file path="/event.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421911611557" ignored="false" />
+    <file path="/common.jspf" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421897878066" ignored="false" />
+    <file path="/demoHead.jspf" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421897911740" ignored="false" />
+    <file path="/event.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421911528930" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/web/routine/MessageAction.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421904170440" ignored="false" />
+    <file path="/MessageAction.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421904170440" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/stockrecommend/job/StockRecommendCalculateJob.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421908074218" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/utils/SimpleMessageUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421905984879" ignored="false" />
+    <file path="/SimpleMessageUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421905891096" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/stockrecommend/support/thread/StockRecommendCalculateThread.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421908081272" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/service/impl/ReportNotificationServiceImpl.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421906019048" ignored="false" />
+    <file path="/ReportNotificationServiceImpl.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421906019048" ignored="false" />
+    <file path="/StockRecommendCalculateThread.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421905980418" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/busin/rtfund/notice/support/manager/ReportNotificationManagerImpl.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421906042270" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/web/rschreport/innerreport/support/approve/ApproveReportArchive.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421907004187" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/web/bond/ratingsimport/support/manage/impl/BondManagerImpl.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421906083065" ignored="false" />
+    <file path="/StockRecommendCalculateJob.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421905851130" ignored="false" />
+    <file path="/ReportNotificationManagerImpl.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421906042270" ignored="false" />
+    <file path="/ApproveReportArchive.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421906059987" ignored="false" />
+    <file path="/BondManagerImpl.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421906083066" ignored="false" />
+    <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/web/routine/hpmymessage.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1421907322940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,12 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/tag/ImageScale.java" />
-        <option value="$PROJECT_DIR$/src/tag/ImagePreLink.java" />
-        <option value="$PROJECT_DIR$/web/jsp/makeImage/demo.jsp" />
-        <option value="$PROJECT_DIR$/src/tag/ImagePreLinkTag.java" />
-        <option value="$PROJECT_DIR$/web/tag/image/aa.jsp" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pageload.tld" />
         <option value="$PROJECT_DIR$/src/tag/ImageScaleTag.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/image.tld" />
@@ -248,6 +267,12 @@
         <option value="$PROJECT_DIR$/web/js/menu/demo/demo.jsp" />
         <option value="$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/bar1.jsp" />
         <option value="$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/bar2.jsp" />
+        <option value="$PROJECT_DIR$/web/js/tool.js" />
+        <option value="$PROJECT_DIR$/web/common.jspf" />
+        <option value="$PROJECT_DIR$/web/demoHead.jspf" />
+        <option value="$PROJECT_DIR$/web/js/keybord/keybord.js" />
+        <option value="$PROJECT_DIR$/web/js/event.jsp" />
+        <option value="$PROJECT_DIR$/web/js/event.js" />
       </list>
     </option>
   </component>
@@ -331,6 +356,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -417,7 +443,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="echarts-2.1.1.0" />
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,7 +465,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="echarts-2.1.1.0" />
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -447,14 +473,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="105" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
@@ -1096,7 +1143,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5617597" sideWeight="0.49730563" order="7" side_tool="false" content_ui="tabs" />
@@ -1259,56 +1306,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/annotation/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.060606062" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tag/PageLoadTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="43" selection-start="749" selection-end="757" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pageload.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="419" selection-end="419" vertical-scroll-proportion="0.34124088" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_1.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="628" column="8" selection-start="18262" selection-end="18262" vertical-scroll-proportion="-0.030303031" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/table/tablecolor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.337591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/demo/demo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="735" selection-end="735" vertical-scroll-proportion="-3.3235295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="28" selection-start="8566" selection-end="8582" vertical-scroll-proportion="0.3326923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/echarts-2.1.1.0/source/chart/bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/echarts-2.1.1.0/min/chart/bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tag/ImageScaleTag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="422" selection-end="422" vertical-scroll-proportion="0.310219" />
@@ -1328,15 +1325,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/tag/image/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="14" selection-start="1975" selection-end="1975" vertical-scroll-proportion="1.3891051">
-          <folding />
-        </state>
+        <state line="51" column="14" selection-start="1975" selection-end="1975" vertical-scroll-proportion="1.3891051" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/bar1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="798" selection-end="798" vertical-scroll-proportion="0.20622568">
+        <state line="29" column="23" selection-start="798" selection-end="798" vertical-scroll-proportion="-0.9513619">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.337591" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/tool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="49" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.18181819">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/demoHead.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="57" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.49610895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="93" selection-end="187" vertical-scroll-proportion="0.032258064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="22" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.33211678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1810" column="22" selection-start="29337" selection-end="29337" vertical-scroll-proportion="-57.030304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/menu/MENU.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="13" selection-start="970" selection-end="970" vertical-scroll-proportion="0.1459854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/layout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/menu/demo/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="335" selection-end="335" vertical-scroll-proportion="0.26459143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="273" selection-end="273" vertical-scroll-proportion="0.121212125">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,7 +1499,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>common</last-edited>
+          <last-edited>cxf</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
