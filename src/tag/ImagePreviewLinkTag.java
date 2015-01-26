@@ -63,11 +63,37 @@ public class ImagePreviewLinkTag extends ImageScaleTag
             //事件函数
             jspWriter.println("" +
                     "<script type=\"text/javascript\">\n" +
-                    "    (function(tLinkObj,imageObj){\n" +
-                    "        //鼠标悬停事件\n" +
-                    "        function tLinkObjMouseOverEvent"+date.getTime()+"(e) {\n" +
+                    "    (function (tLinkObj, imageObj) {\n" +
+                    "\n" +
+                    "        /**\n" +
+                    "         * 追加事件处理\n" +
+                    "         * @param e 要添加事件的DOM节点对象\n" +
+                    "         * @param eventType 事件类型，如\"click\"\n" +
+                    "         * @param callbackFunc 事件触发的方法\n" +
+                    "         */\n" +
+                    "        function addEvent"+date.getTime()+"(e, eventType, callbackFunc) {\n" +
+                    "\n" +
+                    "            if (e.addEventListener) {   //非ie 和ie9\n" +
+                    "                e.addEventListener(eventType, callbackFunc, false);\n" +
+                    "\n" +
+                    "            } else if (e.attachEvent) {  //ie6到ie8\n" +
+                    "                e.attachEvent(\"on\" + eventType, function(){\n" +
+                    "                      callbackFunc.apply(e, arguments);  //让func函数里面的this指向e\n" +
+                    "                });\n" +
+                    "            } else {     //ie5\n" +
+                    "                e[\"on\" + eventType] = callbackFunc;\n" +
+                    "            }\n" +
+                    "\n" +
+                    "        }\n" +
+                    "\n" +
+                    "        //鼠标移入事件\n" +
+                    "        function tLinkObjMouseEnterEvent"+date.getTime()+"(e) {\n" +
+                    "            e = e || window.event;\n" +
+                    "\n" +
                     "            var left = e.x || e.pageX || 0;\n" +
                     "            var top = e.y || e.pageY || 0;\n" +
+                    "            left += 3;\n" +
+                    "            top += 3;\n" +
                     "            if (imageObj.offsetWidth + left > document.body.offsetWidth) {\n" +
                     "                left = document.body.offsetWidth - imageObj.offsetWidth - 10;\n" +
                     "                left = left < 0 ? 0 : left;\n" +
@@ -91,8 +117,40 @@ public class ImagePreviewLinkTag extends ImageScaleTag
                     "\n" +
                     "        }\n" +
                     "\n" +
+                    "        //鼠标在链接上移动事件\n" +
+                    "        function tLinkObjMouseMoveEvent"+date.getTime()+"(e) {\n" +
+                    "            e = e || window.event;\n" +
+                    "\n" +
+                    "            var left = e.x || e.pageX || 0;\n" +
+                    "            var top = e.y || e.pageY || 0;\n" +
+                    "            left += 3;\n" +
+                    "            top += 3;\n" +
+                    "            if (imageObj.offsetWidth + left > document.body.offsetWidth) {\n" +
+                    "                left = document.body.offsetWidth - imageObj.offsetWidth - 10;\n" +
+                    "                left = left < 0 ? 0 : left;\n" +
+                    "            }\n" +
+                    "            if (imageObj.offsetHeight + top > document.body.offsetHeight) {\n" +
+                    "                top = document.body.offsetHeight - imageObj.offsetHeight - 10;\n" +
+                    "                top = top < 0 ? 0 : top;\n" +
+                    "            }\n" +
+                    "            imageObj.style.left = left + \"px\";\n" +
+                    "            imageObj.style.top = top + \"px\";\n" +
+                    "\n" +
+                    "            imageObj.style.display = \"block\";\n" +
+                    "\n" +
+                    "\n" +
+                    "            //阻止浏览器的默认事件行为\n" +
+                    "            if (e && e.preventDefault) {//如果是FF下执行这个\n" +
+                    "                e.preventDefault();\n" +
+                    "            } else {\n" +
+                    "                window.event.returnValue = false;//如果是IE下执行这个\n" +
+                    "            }\n" +
+                    "        }\n" +
+                    "\n" +
+                    "\n" +
                     "        //鼠标从悬停移出事件\n" +
                     "        function tLinkObjMouseOutEvent"+date.getTime()+"(e) {\n" +
+                    "            e = e || window.event;\n" +
                     "\n" +
                     "            imageObj.style.display = \"none\";\n" +
                     "\n" +
@@ -104,19 +162,11 @@ public class ImagePreviewLinkTag extends ImageScaleTag
                     "            }\n" +
                     "        }\n" +
                     "\n" +
-                    "        if (tLinkObj.addEventListener) {\n" +
-                    "            tLinkObj.addEventListener(\"mouseover\", tLinkObjMouseOverEvent"+date.getTime()+", false);\n" +
-                    "            tLinkObj.addEventListener(\"mouseout\", tLinkObjMouseOutEvent"+date.getTime()+", false);\n" +
+                    "        addEvent"+date.getTime()+"(tLinkObj, \"mouseenter\", tLinkObjMouseEnterEvent"+date.getTime()+");\n" +
+                    "        addEvent"+date.getTime()+"(tLinkObj, \"mouseout\", tLinkObjMouseOutEvent"+date.getTime()+");\n" +
+                    "        addEvent"+date.getTime()+"(tLinkObj, \"mousemove\", tLinkObjMouseMoveEvent"+date.getTime()+");\n" +
                     "\n" +
-                    "        } else if (tLinkObj.attachEvent) {\n" +
-                    "            tLinkObj.attachEvent(\"onmouseover\", function () {\n" +
-                    "                tLinkObjMouseOverEvent"+date.getTime()+".apply(tLinkObj, arguments);\n" +
-                    "            });\n" +
-                    "            tLinkObj.attachEvent(\"onmouseout\", function () {\n" +
-                    "                tLinkObjMouseOutEvent"+date.getTime()+".apply(tLinkObj, arguments);\n" +
-                    "            });\n" +
-                    "        }\n" +
-                    "    })(document.getElementById(\""+linkId+"\"),document.getElementById(\""+imageId+"\"));\n" +
+                    "    })(document.getElementById(\""+linkId+"\"), document.getElementById(\""+imageId+"\"));\n" +
                     "</script>");
 
 
