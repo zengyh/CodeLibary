@@ -103,7 +103,8 @@ public class ImagePreviewLinkTag extends ImageScaleTag
                     "                top = top < 0 ? 0 : top;\n" +
                     "            }\n" +
                     "            imageObj.style.left = left + \"px\";\n" +
-                    "            imageObj.style.top = top + \"px\";\n" +
+                    "            //imageObj.style.top = top + \"px\"; //图片跟随鼠标的位置显示\n" +
+                    "            imageObj.style.top = tLinkObj.offsetHeight + \"px\"; //图片显示在文字底部下面\n" +
                     "\n" +
                     "            imageObj.style.display = \"block\";\n" +
                     "\n" +
@@ -134,7 +135,8 @@ public class ImagePreviewLinkTag extends ImageScaleTag
                     "                top = top < 0 ? 0 : top;\n" +
                     "            }\n" +
                     "            imageObj.style.left = left + \"px\";\n" +
-                    "            imageObj.style.top = top + \"px\";\n" +
+                    "            //imageObj.style.top = top + \"px\";  //图片跟随鼠标的位置显示\n" +
+                    "            imageObj.style.top = tLinkObj.offsetHeight + \"px\"; //图片显示在文字底部下面\n" +
                     "\n" +
                     "            imageObj.style.display = \"block\";\n" +
                     "\n" +
