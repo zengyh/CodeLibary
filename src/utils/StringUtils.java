@@ -301,4 +301,60 @@ public class StringUtils {
         return nf.format(object);
     }
 
+
+    /**
+     * 获取类似 not in (...) 查询条件的语句
+     * @param colName     列名
+     * @param inValueStr  not in 里面的值，以逗号隔开
+     * @param operator    条件关系符号，只能是 and 或者是 or 两种值，分别表示 是 and not in(...)，或者是 or not in(...)
+     * @return
+     */
+    private String getLikeNotInWhereCondition(String colName, String inValueStr, String operator){
+        StringBuilder condition = new StringBuilder();
+        if(inValueStr != null){
+            condition.append(" ");
+            condition.append(operator);
+            condition.append(" ( ");
+            boolean isFirst = true;
+            for(String value : inValueStr.split(",")){
+                if(isFirst){
+                    condition.append(colName).append(" != ").append(value);
+                    isFirst = false;
+                }else{
+                    condition.append(" and ").append(colName).append(" != ").append(value);
+                }
+            }
+            condition.append(" ) ");
+        }
+        return condition.toString();
+    }
+
+
+    /**
+     * 获取类似 in (...) 查询条件的语句
+     * @param colName     列名
+     * @param inValueStr  in 里面的值，以逗号隔开
+     * @param operator    条件关系符号，只能是 and 或者是 or 两种值，分别表示 是 and in(...)，或者是 or in(...)
+     * @return
+     */
+    private String getLikeInWhereCondition(String colName, String inValueStr, String operator){
+        StringBuilder condition = new StringBuilder();
+        if(inValueStr != null){
+            condition.append(" ");
+            condition.append(operator);
+            condition.append(" ( ");
+            boolean isFirst = true;
+            for(String value : inValueStr.split(",")){
+                if(isFirst){
+                    condition.append(colName).append(" = ").append(value);
+                    isFirst = false;
+                }else{
+                    condition.append(" or ").append(colName).append(" = ").append(value);
+                }
+            }
+            condition.append(" ) ");
+        }
+        return condition.toString();
+    }
+
 }
