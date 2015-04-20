@@ -124,7 +124,7 @@ public class StringUtils {
 	 */
 	public static String subStringFromTail(String str,String  identifiers ,int amounts){
 		
-		if(amounts > 0){
+		if(amounts > 0 && str.indexOf(identifiers) != -1){
 			str = str.substring(0,str.lastIndexOf(identifiers));
 			amounts -- ;
 			str = subStringFromTail(str,identifiers,amounts);
@@ -145,7 +145,7 @@ public class StringUtils {
 	 */
 	public static String subStringFromHead(String str,String  identifiers ,int amounts){
 		
-		if(amounts > 0){
+		if(amounts > 0 && str.indexOf(identifiers) != -1){
 			str = str.substring(str.indexOf(identifiers)+identifiers.length());
 			amounts -- ;
 			str = subStringFromHead(str,identifiers,amounts);
