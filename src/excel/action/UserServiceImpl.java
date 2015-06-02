@@ -101,36 +101,66 @@ public class UserServiceImpl implements UserService
 			cell.setCellValue(user.getAge());
 		}
 
-		//String fileName = CharacterUtils.getRandomString(10);
+        /*方法一： */
+        /*String filename = RandomStringUtils.randomAlphanumeric(10);
+        final File file = new File(filename + ".xls");
 
-		String fileName = RandomStringUtils.randomAlphanumeric(10);
+        try {
+            FileOutputStream fos = new FileOutputStream(file);
+            wb.write(fos);
+            fos.close();
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
-		fileName = new StringBuffer(fileName).append(".xls").toString();
+        InputStream inputstream = null;
 
-		File file = new File(fileName);
+        try {
+            inputstream = new FileInputStream(file);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
-		try
-		{
-			OutputStream os = new FileOutputStream(file);
-			wb.write(os);
-			os.close();
-		}
-		catch (Exception e)
-		{
-			e.printStackTrace();
-		}
+        new Thread(
+                new Runnable()
+                {
 
-		InputStream is = null;
-		try
-		{
-			is = new FileInputStream(file);
-		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-		}
+                    @Override
+                    public void run() {
+                        // TODO Auto-generated method stub
+                        try {
+                            Thread.sleep(15000);
+                        } catch (InterruptedException e) {
+                            // TODO Auto-generated catch block
+                            e.printStackTrace();
+                        }
+                        file.delete(); //删除临时文件
+                    }
 
-		return is;
+                }
+        ).start();*/
+
+        /*方法二 */
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        try {
+            wb.write(bos);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        byte content[] = bos.toByteArray();
+
+        InputStream inputstream = new ByteArrayInputStream(content);
+        try {
+            bos.close();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return inputstream;
 
 	}
 
