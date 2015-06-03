@@ -389,7 +389,7 @@ public class StringUtils {
            e.printStackTrace();
        }
 
-        isSuccess = StringUtils.isMessyCode(str);
+        isSuccess = isMessyCode(str);
 
         if (!isSuccess) {
             str = null;
