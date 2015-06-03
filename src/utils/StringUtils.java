@@ -388,7 +388,6 @@ public class StringUtils
                         break;
                     }
                 } catch ( UnsupportedEncodingException e ) {
-                     e.printStackTrace();
                 }
             }
         }
