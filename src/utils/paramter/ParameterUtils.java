@@ -14,6 +14,29 @@ import javax.servlet.http.HttpServletRequest;
  */
 public class ParameterUtils {
 
+    final static String ENCODES[] = new String[]{"UTF-8","GB2312","GBK"};
+
+    /**
+   	 * 字符串转码 ，获取能正常显示的字符
+   	 * @param str
+   	 * @return
+   	 */
+   	public static String encodeStr(String str){
+           String orginStr = str;
+
+           for (String encode : ENCODES) {
+               try {
+                   str = new String(orginStr.getBytes("ISO-8859-1"), encode);
+                   if (!StringUtils.isMessyCode(str)) {
+                       break;
+                   }
+               } catch (UnsupportedEncodingException e) {
+               }
+           }
+
+
+   		return StringUtils.isMessyCode(str) ? orginStr : str;
+   	}
 
 	/**
 	 * 将request请求传递的paramName转换成int类型，默认值为 defaultValue
@@ -28,7 +51,7 @@ public class ParameterUtils {
 
 		if(request.getParameter(paramName) != null){
 			String _value = request.getParameter(paramName);
-            _value = StringUtils.encodeStr(_value);
+            _value = encodeStr(_value);
 			value = StringUtils.toInteger(_value.trim());
 		}else{
 			value = defaultValue;
@@ -52,7 +75,7 @@ public class ParameterUtils {
 		if(request.getParameter(paramName) != null){
 
 			String _value = request.getParameter(paramName);
-            _value = StringUtils.encodeStr(_value);
+            _value = encodeStr(_value);
 			value = _value.trim();
 		}else{
 			value = defaultValue;
@@ -75,7 +98,7 @@ public class ParameterUtils {
 
 		if(request.getParameter(paramName) != null){
             String _value = request.getParameter(paramName);
-            _value = StringUtils.encodeStr(_value);
+            _value = encodeStr(_value);
             value = StringUtils.toDouble(_value.trim());
         }else{
 			value = defaultValue;

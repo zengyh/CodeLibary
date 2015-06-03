@@ -19,7 +19,6 @@ import java.util.regex.Pattern;
  */
 public class StringUtils
 {
-    final static String ENCODES[] = new String[]{"UTF-8","GB2312","GBK"};
 
     public static boolean toBoolean(String str) {
         return str.equals("true") ? true : false;
@@ -371,29 +370,5 @@ public class StringUtils
         return condition.toString();
     }
 
-
-	/**
-	 * 字符串转码 ，获取能正常显示的字符
-	 * @param str
-	 * @return
-	 */
-	public static String encodeStr(String str){
-        String orginStr = str;
-
-        if(isMessyCode(str)){
-            for(String encode : ENCODES){
-                try {
-                    str = new String( orginStr.getBytes( "ISO-8859-1" ), encode );
-                    if(!isMessyCode(str)){
-                        break;
-                    }
-                } catch ( UnsupportedEncodingException e ) {
-                }
-            }
-        }
-
-
-		return isMessyCode(str) ? orginStr : str;
-	}
 
 }
