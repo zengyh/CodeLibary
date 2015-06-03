@@ -377,18 +377,22 @@ public class StringUtils
 	 * @param str
 	 * @return
 	 */
-	private static String encodeStr(String str){
+	public static String encodeStr(String str){
         String orginStr = str;
-        for(String encode : ENCODES){
-            try {
-                str = new String( orginStr.getBytes( "ISO-8859-1" ), encode );
-                if(!isMessyCode(str)){
-                    break;
+
+        if(isMessyCode(str)){
+            for(String encode : ENCODES){
+                try {
+                    str = new String( orginStr.getBytes( "ISO-8859-1" ), encode );
+                    if(!isMessyCode(str)){
+                        break;
+                    }
+                } catch ( UnsupportedEncodingException e ) {
+                     e.printStackTrace();
                 }
-            } catch ( UnsupportedEncodingException e ) {
-                 e.printStackTrace();
             }
         }
+
 
 		return isMessyCode(str) ? orginStr : str;
 	}
