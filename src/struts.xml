@@ -6,7 +6,7 @@
         <action name="generateExcel" class="generateExcelAction">
            <result name="success" type="stream" >
                   <param name="contentType" >application/vnd.ms-excel</param>
-                <param name="contentDisposition" >attachment;filename="AllUsers.xls"</param>
+                <param name="contentDisposition" >attachment;filename="${fileName}"</param>
                  <param name="inputName" >downloadFile</param>
            </result>
         </action>
