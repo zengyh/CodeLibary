@@ -19,6 +19,7 @@ import java.util.regex.Pattern;
  */
 public class StringUtils
 {
+    final static String ENCODES[] = new String[]{"UTF-8","GB2312","GBK"};
 
     public static boolean toBoolean(String str) {
         return str.equals("true") ? true : false;
@@ -371,45 +372,25 @@ public class StringUtils
     }
 
 
-    /**
-     * 字符转码，获取正常显示的字符
-     * @param str
-     * @return
-     */
-    public static String encodeStr(String str) {
-
-        String _str = _encodeStr(str, "UTF-8");
-
-        if (_str == null) {
-            _str = _encodeStr(str, "GB2312");
+	/**
+	 * 字符串转码 ，获取能正常显示的字符
+	 * @param str
+	 * @return
+	 */
+	private static String encodeStr(String str){
+        String orginStr = str;
+        for(String encode : ENCODES){
+            try {
+                str = new String( orginStr.getBytes( "ISO-8859-1" ), encode );
+                if(!isMessyCode(str)){
+                    break;
+                }
+            } catch ( UnsupportedEncodingException e ) {
+                 e.printStackTrace();
+            }
         }
 
-        if (_str == null) {
-            _str = _encodeStr(str, "GBK");
-        }
-
-        return _str == null ? str : _str;
-
-    }
-
-
-    private static String _encodeStr(String str, String encoding) {
-        boolean isSuccess = false;
-
-        try {
-            str = new String(str.getBytes("ISO-8859-1"), encoding);
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-
-        isSuccess = isMessyCode(str);
-
-        if (!isSuccess) {
-            str = null;
-        }
-
-        return str;
-
-    }
+		return isMessyCode(str) ? orginStr : str;
+	}
 
 }
