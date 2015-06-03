@@ -357,4 +357,46 @@ public class StringUtils {
         return condition.toString();
     }
 
+
+    /**
+     * 字符转码，获取正常显示的字符
+     * @param str
+     * @return
+     */
+    public static String encodeStr(String str){
+
+       String _str = _encodeStr(str, "UTF-8");
+
+        if(_str == null){
+           _str = _encodeStr(str, "GB2312");
+        }
+
+        if(_str == null){
+           _str = _encodeStr(str, "GBK");
+        }
+
+        return _str == null ? str : _str;
+
+     }
+
+
+    private static String _encodeStr(String str, String encoding){
+        boolean isSuccess = false;
+
+        try {
+           str = new String(str.getBytes("ISO-8859-1" ),encoding);
+       } catch (UnsupportedEncodingException e) {
+           e.printStackTrace();
+       }
+
+        isSuccess = StringUtils.isMessyCode(str);
+
+        if (!isSuccess) {
+            str = null;
+        }
+
+        return str;
+
+    }
+
 }
