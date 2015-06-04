@@ -1,5 +1,7 @@
 package utils;
 
+import freemarker.template.SimpleDate;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -273,5 +275,56 @@ public class DateUtils {
 
         return margin;
     }
-    
+
+
+    /**
+     * 获取两个日期之间的所有日期
+     * @param beginDate          开始日期
+     * @param endDate            结束日期
+     * @param includeBeginDate   返回结果是否包含开始日期
+     * @param includeEndDate     返回结果是否包含结束日期
+     * @return
+     */
+    public static Date[] getDatesBetween(Date beginDate, Date endDate, boolean includeBeginDate, boolean includeEndDate){
+        Long length = Math.abs(getDatesBetween(beginDate, endDate)+1);
+
+        if(!includeBeginDate){
+           length--;
+        }
+
+        if(!includeEndDate){
+            length--;
+        }
+
+        Date[] dates = new Date[length.intValue()];
+        Date tempDate = beginDate;
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(beginDate);
+
+        if(beginDate.after(endDate)){
+            beginDate = endDate;
+            endDate = tempDate;
+        }
+
+        if(includeBeginDate){
+            dates[0] = beginDate;
+        }
+
+        int i = includeBeginDate ? 1 : 0;
+        while ((tempDate = getSpecifiedDayAfter(beginDate)).before(endDate)) {
+            dates[i] = tempDate;
+            beginDate = tempDate;
+            i++;
+        }
+
+        if(includeEndDate){
+            dates[length.intValue()-1] = endDate;
+        }
+
+
+        return dates;
+    }
+
+
 }
