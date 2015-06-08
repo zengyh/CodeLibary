@@ -1,7 +1,5 @@
 package utils;
 
-import freemarker.template.SimpleDate;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

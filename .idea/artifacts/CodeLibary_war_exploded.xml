@@ -9,8 +9,10 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="cxf" />
           <element id="library" level="project" name="jsoup-1.7.2" />
-          <element id="library" level="project" name="common" />
           <element id="library" level="project" name="htmlunit" />
+          <element id="library" level="project" name="ssh" />
+          <element id="library" level="project" name="jmail" />
+          <element id="library" level="project" name="junit" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="CodeLibary/web/Web" />

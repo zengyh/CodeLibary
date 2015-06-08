@@ -11,6 +11,9 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -23,7 +26,9 @@
     <orderEntry type="library" name="j2ee" level="project" />
     <orderEntry type="library" name="jsoup-1.7.2" level="project" />
     <orderEntry type="library" name="htmlunit" level="project" />
-    <orderEntry type="library" name="common" level="project" />
+    <orderEntry type="library" name="ssh" level="project" />
+    <orderEntry type="library" name="jmail" level="project" />
+    <orderEntry type="library" name="junit" level="project" />
   </component>
 </module>
 
