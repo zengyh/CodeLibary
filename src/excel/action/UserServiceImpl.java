@@ -7,6 +7,7 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -32,7 +33,7 @@ public class UserServiceImpl implements UserService
 
 	public List<User> findAll()
 	{
-        return null;
+        return new ArrayList<User>();
 		//return this.userDao.findAllUsers();
 	}
 
