@@ -6,23 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jmail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ssh.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strutsCfg/struts-excel.xml" />
-      <change type="DELETED" beforePath="D:\workspace\CodeLibary\.idea\libraries\common.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeLibary.iml" afterPath="$PROJECT_DIR$/CodeLibary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/CodeLibary_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CodeLibary_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/utils/DateUtils.java" />
+    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="&#10;   &#10;   1、">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/support/struts2/config/providers/CustomConfigurationProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/support/struts2/filter/CustomStrutsPrepareAndExecuteFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java" afterPath="$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strutsCfg/struts-excel.xml" afterPath="$PROJECT_DIR$/src/strutsCfg/struts-excel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433775859467" ignored="false" />
-    <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433406203883" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433819832799" ignored="false" />
+    <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433819168992" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/busin/stockresearch/service/StockResearchServiceFactory.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408094014934" ignored="false" />
@@ -30,7 +26,7 @@
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/web/META-INF/context.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1412931272968" ignored="false" />
     <file path="/context.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408094271194" ignored="false" />
     <file path="/d.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408163300321" ignored="false" />
-    <file path="/web.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433777698814" ignored="false" />
+    <file path="/web.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433819328873" ignored="false" />
     <file path="/SoapClient.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408165702650" ignored="false" />
     <file path="/StringUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433339927411" ignored="false" />
     <file path="/IncludeTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408179056837" ignored="false" />
@@ -50,7 +46,7 @@
     <file path="/HttpClientUtilsTest.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408793600582" ignored="false" />
     <file path="/table.js" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1414644476819" ignored="false" />
     <file path="/tableTest.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408189416638" ignored="false" />
-    <file path="/struts.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433776012515" ignored="false" />
+    <file path="/struts.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433817415129" ignored="false" />
     <file path="/index.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408189518930" ignored="false" />
     <file path="/test.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1420788396387" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/web/rschreport/innerreport/includes/commandreport1_edit.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329021891" ignored="false" />
@@ -99,7 +95,7 @@
     <file path="/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/common/utils/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408960657681" ignored="false" />
     <file path="/makeContentImage.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1411276751830" ignored="false" />
-    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433780923637" ignored="false" />
+    <file path="/a.dummy" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433815345562" ignored="false" />
     <file path="/demoHead.html" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410620909144" ignored="false" />
     <file path="/demo.jsp" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1425093270481" ignored="false" />
     <file path="/EscapeHtmlTag.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1410670353006" ignored="false" />
@@ -207,7 +203,9 @@
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/common/utils/DateUtil.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433497424386" ignored="false" />
     <file path="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/src/com/sinitek/sirm/web/routine/CalendarAction.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433497297215" ignored="false" />
     <file path="/CalendarAction.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433497293669" ignored="false" />
-    <file path="/struts-excel.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433781534918" ignored="false" />
+    <file path="/struts-excel.xml" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433817426078" ignored="false" />
+    <file path="/DummyFile.xpath" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433817799850" ignored="false" />
+    <file path="/SirmFilterDispatcher.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1433819220770" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +225,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -262,6 +259,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -280,13 +278,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateExcelAction.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GenerateExcelAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="24" column="38" selection-start="477" selection-end="477" vertical-scroll-proportion="0.3207547">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -294,8 +290,10 @@
       <file leaf-file-name="EMailUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/mail/EMailUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="50" column="29" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -311,9 +309,6 @@
       </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
@@ -321,43 +316,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="335" selection-end="335" vertical-scroll-proportion="-3.9666667">
+            <state line="57" column="29" selection-start="2101" selection-end="2101" vertical-scroll-proportion="11.633333">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webservice/net/ilkj/soap/server/HelloServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="69" selection-start="492" selection-end="530" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="struts-excel.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strutsCfg/struts-excel.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="56" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-struts2config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/springCfg/spring-struts2config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="305" selection-end="305" vertical-scroll-proportion="0.21205822">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailUtilsTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/mail/EmailUtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+            <state line="5" column="65" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -392,22 +363,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/bar1.jsp" />
-        <option value="$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/bar2.jsp" />
-        <option value="$PROJECT_DIR$/web/js/echarts-2.1.1.0/demo/k1.jsp" />
         <option value="$PROJECT_DIR$/web/tag/image/t.js" />
         <option value="$PROJECT_DIR$/web/tag/image/a.jsp" />
         <option value="$PROJECT_DIR$/src/tag/ImagePreviewLinkTag.java" />
         <option value="$PROJECT_DIR$/web/tag/dragtab/demo.jsp" />
-        <option value="$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java" />
         <option value="$PROJECT_DIR$/src/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/utils/paramter/ParameterUtils.java" />
         <option value="$PROJECT_DIR$/src/excel/action/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/src/struts.properties" />
         <option value="$PROJECT_DIR$/src/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/src/strutsCfg/struts-excel.xml" />
+        <option value="$PROJECT_DIR$/src/support/struts2/config/providers/CustomConfigurationProvider.java" />
+        <option value="$PROJECT_DIR$/src/support/struts2/filter/SirmFilterDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/support/struts2/filter/CustomStrutsPrepareAndExecuteFilter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java" />
       </list>
     </option>
   </component>
@@ -706,6 +677,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeLibary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="strutsCfg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -753,14 +794,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="107" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="130" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="122" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="122" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fia_sirm_jj_rtjj/trunk/src/fia_jj_rtjj_sirm/fia_jj_rtjj_sirm.ipr" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="134" />
@@ -776,26 +817,28 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="options.lastSelected" value="preferences.applicationServers" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="support.struts2.filter" />
+      <recent name="support.struts2.config.providers" />
       <recent name="support" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\CodeLibary\web\WEB-INF" />
       <recent name="D:\workspace\CodeLibary\src" />
+      <recent name="D:\workspace\CodeLibary\web\WEB-INF" />
       <recent name="E:\workspace\CodeLibary\web\js\echarts-2.1.1.0\demo" />
       <recent name="E:\workspace\CodeLibary\web\js\echarts-2.1.1.0" />
       <recent name="E:\workspace\CodeLibary\web\js" />
@@ -940,6 +983,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -968,19 +1024,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1003,13 +1046,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1029,6 +1065,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -1441,7 +1484,11 @@
       <created>1433775862464</created>
       <updated>1433775862464</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="&#10;   &#10;    简化项目需要的jar包">
+      <created>1433781936622</created>
+      <updated>1433781936622</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1487,7 +1534,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.40104166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.45833334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3871528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1535,7 +1582,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;   修改下载Excel的demo&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;   &#10;    简化项目需要的jar包" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1548,7 +1595,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.3561644" />
-    <MESSAGE value="  &#10;    修改StringUtils.java 工具类" />
     <MESSAGE value="&#10;    修改制作图片的DEMO" />
     <MESSAGE value="  &#10;  &#10;       修改菜单控件" />
     <MESSAGE value="  &#10;   &#10;     解决pageload.tld 文件乱码问题" />
@@ -1573,6 +1619,7 @@
     <MESSAGE value="&#10;&#10;  修改StringUtils.java和ParameterUtils.java" />
     <MESSAGE value="&#10;  修改DateUtils.java，添加获取两个日期之间的所有日期" />
     <MESSAGE value="&#10;   修改下载Excel的demo&#10;" />
+    <MESSAGE value="&#10;   &#10;    简化项目需要的jar包" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1611,6 +1658,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <PATH>
       <PATH_ELEMENT>
@@ -1628,20 +1679,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../jars/cxf/cxf-2.1.2.jar!/org/apache/cxf/endpoint/Client.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.17671518">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webservice/net/ilkj/soap/client/HelloServiceImplService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="11" selection-start="1608" selection-end="1608" vertical-scroll-proportion="1.4110672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/springCfg/spring-webserviceconfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="14" selection-start="934" selection-end="934" vertical-scroll-proportion="-0.23700623">
@@ -1651,23 +1688,12 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../jars/common/xwork-core-2.3.15.1.jar!/com/opensymphony/xwork2/DefaultActionProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.5443787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/mail/EmailUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="61" column="0" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.5443787" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="44" selection-end="44" vertical-scroll-proportion="0.10691824">
-          <folding />
-        </state>
+        <state line="2" column="28" selection-start="44" selection-end="44" vertical-scroll-proportion="0.10691824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
@@ -1677,55 +1703,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/webservice/net/ilkj/soap/client/SoapClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="25" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.30237153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/mail/EMailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="335" selection-end="335" vertical-scroll-proportion="-3.9666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webservice/net/ilkj/soap/server/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="69" selection-start="492" selection-end="530" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strutsCfg/struts-excel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1737,9 +1717,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/mail/EMailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="29" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/mail/EmailUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="26" selection-start="880" selection-end="880" vertical-scroll-proportion="1.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/springCfg/spring-struts2config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="305" selection-end="305" vertical-scroll-proportion="0.21205822">
+        <state line="8" column="4" selection-start="372" selection-end="372" vertical-scroll-proportion="0.27530363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jars/ssh/xwork-core-2.3.15.1.jar!/com/opensymphony/xwork2/Action.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="39" selection-start="211" selection-end="218" vertical-scroll-proportion="0.20647773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webservice/net/ilkj/soap/server/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="309" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/struts2/filter/CustomStrutsPrepareAndExecuteFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="8" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/struts2/config/providers/CustomConfigurationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="531" selection-end="558" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#905#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="29" selection-start="2101" selection-end="2101" vertical-scroll-proportion="11.633333">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strutsCfg/struts-excel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="65" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/excel/action/GenerateExcelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="38" selection-start="477" selection-end="477" vertical-scroll-proportion="0.3207547">
           <folding />
         </state>
       </provider>

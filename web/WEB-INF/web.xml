@@ -58,22 +58,23 @@
 
     <!-- struts2配置 -->
     <filter>
-        <filter-name>Struts2</filter-name>
+        <filter-name>struts2</filter-name>
         <filter-class>
-            org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+            support.struts2.filter.CustomStrutsPrepareAndExecuteFilter
         </filter-class>
         <init-param>
-             <param-name>config</param-name>
-             <param-value>struts-default.xml,struts-plugin.xml,classpath*:strutsCfg/struts-*.xml</param-value>
+            <param-name>configPattern</param-name>
+            <param-value>classpath*:strutsCfg/struts-*.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>configProviders</param-name>
+            <param-value>support.struts2.config.providers.CustomConfigurationProvider</param-value>
         </init-param>
     </filter>
 
 
-
-
-
     <filter-mapping>
-        <filter-name>Struts2</filter-name>
+        <filter-name>struts2</filter-name>
         <url-pattern>*.action</url-pattern>
     </filter-mapping>
 

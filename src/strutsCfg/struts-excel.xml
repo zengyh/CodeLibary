@@ -1,13 +1,14 @@
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
-    <constant value="false" name="struts.devMode"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
     <package name="excel" extends="struts-default" namespace="/excel">
         <action name="generateExcel" class="generateExcelAction">
-           <result name="success" type="stream" >
-                  <param name="contentType" >application/vnd.ms-excel</param>
-                <param name="contentDisposition" >attachment;filename="${fileName}"</param>
-                 <param name="inputName" >downloadFile</param>
-           </result>
+            <result name="success" type="stream">
+                <param name="contentType">application/vnd.ms-excel</param>
+                <param name="contentDisposition">attachment;filename="${fileName}"</param>
+                <param name="inputName">downloadFile</param>
+            </result>
         </action>
     </package>
 </struts>
