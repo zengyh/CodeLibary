@@ -22,7 +22,7 @@ public class GenerateExcelAction extends ActionSupport
 	
 	public InputStream getDownloadFile()
 	{
-        this.fileName = "EXCEL下载例子.xls";
+        this.fileName = "EXCEL下载例子";
         try {
             this.fileName = new String(fileName.getBytes(),"ISO-8859-1");  //解决下载的文件名乱码
         } catch (UnsupportedEncodingException e) {
