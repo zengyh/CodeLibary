@@ -140,7 +140,7 @@ public class StringUtils
     /**
      * 从字符串str头部开始截取掉头部到identifiers标识的字符串
      * 如：subStringFromHead("f/a/b/c, /, 1)  --->  a/b/c
-     * subStringFromHead("f/a/b/c, /, 2)  --->  /b/c
+     * subStringFromHead("f/a/b/c, /, 2)  --->  b/c
      *
      * @param str         要截取的字符串
      * @param identifiers 字符串identifiers标识
