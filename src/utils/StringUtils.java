@@ -4,6 +4,7 @@ import org.hibernate.lob.SerializableBlob;
 import org.hibernate.lob.SerializableClob;
 
 import java.io.*;
+import java.math.BigDecimal;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -368,6 +369,23 @@ public class StringUtils
             condition.append(" ) ");
         }
         return condition.toString();
+    }
+
+    /**
+     * 获取某数值四舍五入的值
+     * @param number   数值
+     * @param n        精度，保留多少位小数
+     * @return
+     */
+    public static String getRoundString(String number, int n){
+
+        try {
+            number =  new BigDecimal(number).setScale(n, BigDecimal.ROUND_HALF_UP).toString();
+        } catch (Exception e) {
+        }
+
+        return number;
+
     }
 
 
