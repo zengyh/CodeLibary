@@ -365,6 +365,10 @@ var MENU = function() {
 					
 					    liDOM.style.height = height*16/width+"px";  //根据图片高度重新设定li的高度
 					});
+                    //解决菜单项，图片路径为空的情况下，出现白点
+                    if (option.img == null || trim(option.img) == "") {
+                        childNode.setAttribute("style", "");
+                    }
 				}
 			}
 		});
