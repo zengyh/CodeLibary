@@ -322,7 +322,7 @@ public class StringUtils
      * @param operator   条件关系符号，只能是 and 或者是 or 两种值，分别表示 是 and not in(...)，或者是 or not in(...)
      * @return
      */
-    private String getLikeNotInWhereCondition(String colName, String inValueStr, String operator) {
+    public static  String getLikeNotInWhereCondition(String colName, String inValueStr, String operator) {
         StringBuilder condition = new StringBuilder();
         if (inValueStr != null) {
             condition.append(" ");
@@ -351,7 +351,7 @@ public class StringUtils
      * @param operator   条件关系符号，只能是 and 或者是 or 两种值，分别表示 是 and in(...)，或者是 or in(...)
      * @return
      */
-    private String getLikeInWhereCondition(String colName, String inValueStr, String operator) {
+    public static String getLikeInWhereCondition(String colName, String inValueStr, String operator) {
         StringBuilder condition = new StringBuilder();
         if (inValueStr != null) {
             condition.append(" ");
