@@ -251,6 +251,102 @@ public class DateUtils {
     }
 
     /**
+     * 获取某日期所在季度的开始和结束日期
+     * @param date  日期
+     * @return value格式为yyyyMMddHHmmss ，所有的key如下：
+     *         key=desc  则表示季度名称，值范围 （一季度、二季度、三季度、四季度）
+     *         key=date1 则表示所在季度开始日期
+     *         key=date2 则表示一季度结束日期
+     */
+    public static Map<String,String> getTheQuarterDateMap(Date  date){
+        String desc = "";   //季度名称，值范围 （一季度、二季度、三季度、四季度）
+        String date1 = "";  //所在季度开始日期  格式为yyyyMMddHHmmss
+        String date2 = "";  //所在季度结束日期  格式为yyyyMMddHHmmss
+
+        SimpleDateFormat timeFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        int monthIndex = calendar.get(Calendar.MONTH);
+
+        if(monthIndex >= 0 && monthIndex <=2) {   //一季度
+            desc = "一季度";
+            //一季度开始日期
+            calendar.set(Calendar.MONTH, 0);
+            calendar.set(Calendar.DAY_OF_MONTH, 1);
+            calendar.set(Calendar.HOUR_OF_DAY, 0);
+            calendar.set(Calendar.MINUTE, 0);
+            calendar.set(Calendar.SECOND, 0);
+            date1 = timeFormat.format(calendar.getTime());
+            //一季度结束日期
+            calendar.set(Calendar.MONTH, 2);
+            calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+            calendar.set(Calendar.HOUR_OF_DAY, 23);
+            calendar.set(Calendar.MINUTE, 59);
+            calendar.set(Calendar.SECOND, 59);
+            date2 = timeFormat.format(calendar.getTime());
+
+        }else if(monthIndex >=3 && monthIndex <= 5){ //二季度
+            desc = "二季度";
+            //二季度开始日期
+            calendar.set(Calendar.MONTH, 3);
+            calendar.set(Calendar.DAY_OF_MONTH, 1);
+            calendar.set(Calendar.HOUR_OF_DAY, 0);
+            calendar.set(Calendar.MINUTE, 0);
+            calendar.set(Calendar.SECOND, 0);
+            date1 = timeFormat.format(calendar.getTime());
+            //二季度结束日期
+            calendar.set(Calendar.MONTH, 5);
+            calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+            calendar.set(Calendar.HOUR_OF_DAY, 23);
+            calendar.set(Calendar.MINUTE, 59);
+            calendar.set(Calendar.SECOND, 59);
+            date2 = timeFormat.format(calendar.getTime());
+
+        }else if(monthIndex >= 6 && monthIndex <=8) {   //三季度
+            desc = "三季度";
+            //三季度开始日期
+            calendar.set(Calendar.MONTH, 6);
+            calendar.set(Calendar.DAY_OF_MONTH, 1);
+            calendar.set(Calendar.HOUR_OF_DAY, 0);
+            calendar.set(Calendar.MINUTE, 0);
+            calendar.set(Calendar.SECOND, 0);
+            date1 = timeFormat.format(calendar.getTime());
+            //三季度结束日期
+            calendar.set(Calendar.MONTH, 8);
+            calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+            calendar.set(Calendar.HOUR_OF_DAY, 23);
+            calendar.set(Calendar.MINUTE, 59);
+            calendar.set(Calendar.SECOND, 59);
+            date2 = timeFormat.format(calendar.getTime());
+
+        }else if(monthIndex >= 9 && monthIndex <= 11){ //四季度
+            desc = "四季度";
+            //四季度开始日期
+            calendar.set(Calendar.MONTH, 9);
+            calendar.set(Calendar.DAY_OF_MONTH, 1);
+            calendar.set(Calendar.HOUR_OF_DAY, 0);
+            calendar.set(Calendar.MINUTE, 0);
+            calendar.set(Calendar.SECOND, 0);
+            date1 = timeFormat.format(calendar.getTime());
+            //四季度结束日期
+            calendar.set(Calendar.MONTH, 11);
+            calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+            calendar.set(Calendar.HOUR_OF_DAY, 23);
+            calendar.set(Calendar.MINUTE, 59);
+            calendar.set(Calendar.SECOND, 59);
+            date2 = timeFormat.format(calendar.getTime());
+        }
+
+
+        Map<String,String> returnMap = new HashMap<String,String>();
+        returnMap.put("desc", desc);
+        returnMap.put("date1", date1);
+        returnMap.put("date2", date2);
+
+        return returnMap;
+    }
+
+    /**
      * 获取两个日期之间相差的天数
      * @param beginDate
      * @param endDate
