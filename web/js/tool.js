@@ -213,6 +213,17 @@ function trim(str){
 	return str.replace(/(^\s*)|(\s*$)/g, '');
 }
 
+/**
+ * 判断对象是否为空
+ * @param objVal
+ * @return {boolean}
+ */
+function isNotNull(objVal){
+    return objVal != null && typeof objVal != "undefined"
+             && (typeof(objVal) != "string" || (typeof(objVal) == "string" && trim(objVal) != "") );
+}
+
+
 
 
 
