@@ -421,4 +421,82 @@ public class DateUtils {
     }
 
 
+    /**
+     * 获取一年中12个月的开始和结束日期
+     * @param year 年份，格式yyyy
+     * @return   value格式为yyyyMMddHHmmss ，所有的key如下：
+     *     key=date1_1 则表示一月份的开始日期
+     *     key=date1_2 则表示一月份的结束日期
+     *     key=date2_1 则表示二月份的开始日期
+     *     key=date2_2 则表示二月份的结束日期
+     *     key=date3_1 则表示三月份的开始日期
+     *     key=date3_2 则表示三月份的结束日期
+     *     key=date4_1 则表示四月份的开始日期
+     *     key=date4_2 则表示四月份的结束日期
+     *     key=date5_1 则表示五月份的开始日期
+     *     key=date5_2 则表示五月份的结束日期
+     *     key=date6_1 则表示六月份的开始日期
+     *     key=date6_2 则表示六月份的结束日期
+     *     key=date7_1 则表示七月份的开始日期
+     *     key=date7_2 则表示七月份的结束日期
+     *     key=date8_1 则表示八月份的开始日期
+     *     key=date8_2 则表示八月份的结束日期
+     *     key=date9_1 则表示九月份的开始日期
+     *     key=date9_2 则表示九月份的结束日期
+     *     key=date10_1 则表示十月份的开始日期
+     *     key=date10_2 则表示十月份的结束日期
+     *     key=date11_1 则表示十一月份的开始日期
+     *     key=date11_2 则表示十一月份的结束日期
+     *     key=date12_1 则表示十二月份的开始日期
+     *     key=date12_2 则表示十二月份的结束日期
+     */
+    public static Map<String,String> getEveryMonthFirstEndDateOfYear(int year){
+        Map<String,String> returnMap = new HashMap<String,String>();
+
+        SimpleDateFormat timeFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+
+        for(int i=1; i<=12; i++){
+            Date[] dates = getFirstEndDateOfMonth(year, i);
+            returnMap.put("date"+i+"_1", timeFormat.format(dates[0]));
+            returnMap.put("date"+i+"_2", timeFormat.format(dates[1]));
+        }
+
+        return returnMap;
+    }
+
+    /**
+     * 获取某年份的某个月份的开始和结束日期
+     * @param year  年份，格式 yyyyMMdd
+     * @param n     月份，1到12的数字
+     * @return
+     */
+    public static Date[] getFirstEndDateOfMonth(int year, int n) {
+        n = n-1;
+        if (n < 0) {
+            return null;
+        }
+        Date dates[] = new Date[2];
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR, year);
+
+        //获取某月份的开始日期
+        calendar.set(Calendar.MONTH, n);
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        dates[0] = calendar.getTime();
+        //获取某月份的结束日期
+        calendar.set(Calendar.MONTH, n);
+        calendar.set(Calendar.DAY_OF_MONTH, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        dates[1] = calendar.getTime();
+
+        return dates;
+    }
+
+
+
 }
