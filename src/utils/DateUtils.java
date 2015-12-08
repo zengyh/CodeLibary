@@ -497,6 +497,22 @@ public class DateUtils {
         return dates;
     }
 
+    /**
+     * 获取某个日期的所在月份的最后一天日期
+     * @return
+     */
+    public static Date getLastDateOfThisMonth(Date date){
+    	Calendar calendar=Calendar.getInstance();
+    	calendar.setTime(date);
+        int maxDate =  calendar.getMaximum(Calendar.DATE);
+        calendar.set(Calendar.DAY_OF_MONTH, maxDate);
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+    	return  calendar.getTime();
+    }
+
+
 
 
 }
