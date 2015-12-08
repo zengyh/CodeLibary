@@ -224,6 +224,28 @@ function isNotNull(objVal){
 }
 
 
+//返回当前的时间 精确到分钟
+function getCurrentTime(){
+    var currentDate = new Date();
+    var month = currentDate.getMonth()+1;
+    var date = currentDate.getDate();
+    var hour = currentDate.getHours();
+    var minutes = currentDate.getMinutes();
 
+    if(month < 10){
+        month = "0"+month;
+    }
+    if(date < 10){
+        date = "0"+date;
+    }
+    if(hour < 10){
+        hour = "0"+hour;
+    }
+    if(minutes < 10){
+        minutes = "0"+minutes;
+    }
+
+    return currentDate.getFullYear()+"-"+month+"-"+date+" "+hour+":"+minutes;
+}
 
 
