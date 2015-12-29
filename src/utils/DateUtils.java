@@ -504,7 +504,7 @@ public class DateUtils {
     public static Date getLastDateOfThisMonth(Date date){
     	Calendar calendar=Calendar.getInstance();
     	calendar.setTime(date);
-        int maxDate =  calendar.getMaximum(Calendar.DATE);
+        int maxDate =  calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
         calendar.set(Calendar.DAY_OF_MONTH, maxDate);
         calendar.set(Calendar.HOUR_OF_DAY, 23);
         calendar.set(Calendar.MINUTE, 59);
