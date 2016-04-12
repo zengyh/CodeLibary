@@ -1,7 +1,8 @@
 package utils;
 
-import java.io.FileInputStream;
-import java.net.URLDecoder;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.Properties;
 
 /**
@@ -19,8 +20,8 @@ public class PropertyUtils {
 					"").getPath();
 			filePath = filePath + fileName;
 
-			FileInputStream bw = new FileInputStream(URLDecoder.decode(filePath,"UTF-8"));
-			orgProps.load(bw);	
+            BufferedReader bf = new BufferedReader(new FileReader(new File(filePath)));
+			orgProps.load(bf);
 		}catch (Exception e){
 			e.printStackTrace();
 		}

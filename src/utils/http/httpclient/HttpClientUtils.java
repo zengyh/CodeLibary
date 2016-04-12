@@ -14,8 +14,10 @@ import utils.PropertyUtils;
 import utils.StringUtils;
 
 import javax.net.ssl.SSLHandshakeException;
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -217,19 +219,18 @@ public class HttpClientUtils {
 		StringBuffer buffer = new StringBuffer();
         String CHARSET_NAME = PropertyUtils.getValue( "global.properties", "charsetName" );
 		
-	    byte[]  bytes  =  new  byte[1024 *  5];   //输出流的缓冲区 5kb
-	      
-	    int len;
-	    try {
-			while ((len = inputStream.read(bytes))!=-1) {
-			     buffer.append(new String(bytes, 0, len, CHARSET_NAME));
-			}
-			inputStream.close();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}finally{
-		}
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream,CHARSET_NAME));
+            String content = bufferedReader.readLine();
+            while(content != null){
+                buffer.append(content);
+                content = bufferedReader.readLine();
+            }
+            inputStream.close();
+            bufferedReader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 		
 		return buffer.toString();
 	}
