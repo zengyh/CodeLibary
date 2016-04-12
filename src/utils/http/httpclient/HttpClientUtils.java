@@ -1,25 +1,6 @@
 package utils.http.httpclient;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
-import javax.net.ssl.SSLHandshakeException;
-
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
-import org.apache.http.NoHttpResponseException;
-import org.apache.http.client.HttpClient;
+import org.apache.http.*;
 import org.apache.http.client.HttpRequestRetryHandler;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
@@ -31,6 +12,19 @@ import org.apache.http.protocol.ExecutionContext;
 import org.apache.http.protocol.HttpContext;
 import utils.PropertyUtils;
 import utils.StringUtils;
+
+import javax.net.ssl.SSLHandshakeException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -45,10 +39,7 @@ public class HttpClientUtils {
 		POST,
 		GET
 	}
-	
-	public static final  String CHARSET_NAME = PropertyUtils.getValue( "global.properties", "charsetName" );
-	
-	
+
 	public static String[] getPageContent(String[] urls){
 		
 		String contents[] = new String[urls.length];
@@ -138,7 +129,7 @@ public class HttpClientUtils {
 		     	case  POST :
 		     		  List<NameValuePair> params = getParams2List(paramsMap);
 					  HttpPost post = new HttpPost(url);
-				      post.setEntity(new UrlEncodedFormEntity(params, CHARSET_NAME));
+				      post.setEntity(new UrlEncodedFormEntity(params, PropertyUtils.getValue( "global.properties", "charsetName" )));
 				   
 				      response = client.execute(post);
 		     		  break;
@@ -224,6 +215,7 @@ public class HttpClientUtils {
 	public static String getContentFromInputStream(InputStream inputStream){
 	   
 		StringBuffer buffer = new StringBuffer();
+        String CHARSET_NAME = PropertyUtils.getValue( "global.properties", "charsetName" );
 		
 	    byte[]  bytes  =  new  byte[1024 *  5];   //输出流的缓冲区 5kb
 	      
