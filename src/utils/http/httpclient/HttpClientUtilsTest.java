@@ -14,10 +14,10 @@ public class HttpClientUtilsTest
     {
 
         //1 多线程方式抓取页面内容
-        System.out.println(HttpClientUtils.getPageContent( new String[]{"http://www.cnhnb.com/"} )[0]);
+        System.out.println(HttpClientUtils.getPageContent( new String[]{"http://www.cnhnb.com/"}, "utf-8" )[0]);
 
         //2 单线程方式
-        System.out.println(HttpClientUtils.getPageContent( "http://www.cnhnb.com/", HttpClientUtils.RequestMethod.GET, null ));
+        System.out.println(HttpClientUtils.getPageContent( "http://www.cnhnb.com/", HttpClientUtils.RequestMethod.GET, null, "utf-8" ));
 
     }
 

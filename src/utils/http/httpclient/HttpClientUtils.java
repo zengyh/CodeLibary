@@ -42,7 +42,13 @@ public class HttpClientUtils {
 		GET
 	}
 
-	public static String[] getPageContent(String[] urls){
+    /**
+     * 多线程抓取页面内容
+     * @param urls          页面地址
+     * @param charsetName   页面编码格式
+     * @return              请求的页面内容
+     */
+	public static String[] getPageContent(String[] urls, String charsetName){
 		
 		String contents[] = new String[urls.length];
 		
@@ -62,7 +68,7 @@ public class HttpClientUtils {
 	    Job[] jobs = new Job[urls.length];
 	    
 	    for(int i = 0 ;i < urls.length; i++){
-	    	jobs[i] = new Job(urls[i], countDownLatch);
+	    	jobs[i] = new Job(urls[i], charsetName, countDownLatch);
 	    	threadPool.execute(jobs[i]);
 	    }
 	    
@@ -84,10 +90,11 @@ public class HttpClientUtils {
 	 * @param url         地址
 	 * @param method      请求方法POST或GET
 	 * @param paramsMap   请求参数
+     * @param charsetName 页面编码格式
 	 * @return            请求的页面内容
 	 */
 	@SuppressWarnings("deprecation")
-	public static String getPageContent(String url, RequestMethod method, Map<String,String> paramsMap){
+	public static String getPageContent(String url, RequestMethod method, Map<String,String> paramsMap, String charsetName){
 	
 		DefaultHttpClient client = new DefaultHttpClient();
 		
@@ -148,7 +155,7 @@ public class HttpClientUtils {
 			}
 			
 
-			content = getContentFromInputStream(response.getEntity().getContent());
+			content = getContentFromInputStream(response.getEntity().getContent(), charsetName);
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
@@ -214,11 +221,14 @@ public class HttpClientUtils {
 	 * @param inputStream
 	 * @return              从inputStream输入流中读取到的内容
 	 */
-	public static String getContentFromInputStream(InputStream inputStream){
+	public static String getContentFromInputStream(InputStream inputStream, String charsetName){
 	   
 		StringBuffer buffer = new StringBuffer();
-        String CHARSET_NAME = PropertyUtils.getValue( "global.properties", "charsetName" );
-		
+        String CHARSET_NAME = charsetName;
+        if(CHARSET_NAME == null || CHARSET_NAME.trim().equals("")){
+            CHARSET_NAME = PropertyUtils.getValue( "global.properties", "charsetName" );
+        }
+
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream,CHARSET_NAME));
             String content = bufferedReader.readLine();
@@ -239,17 +249,19 @@ public class HttpClientUtils {
     static class Job implements Runnable{
     	
     	private String url;
+        private String charsetName;
     	private CountDownLatch countDownLatch;
     	private String content;
     	
-    	public Job(String url, CountDownLatch countDownLatch){
+    	public Job(String url, String charsetName, CountDownLatch countDownLatch){
     		this.url = url;
     		this.countDownLatch = countDownLatch;
+            this.charsetName = charsetName;
     	}
 
 		public void run() {
 			// TODO Auto-generated method stub
-			content = getPageContent(url, RequestMethod.GET, null);
+			content = getPageContent(url, RequestMethod.GET, null, charsetName);
 			countDownLatch.countDown();
 		}
 		
