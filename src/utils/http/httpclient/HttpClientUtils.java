@@ -59,10 +59,11 @@ public class HttpClientUtils {
 		//建立线程池
 	    ThreadPoolExecutor threadPool = new ThreadPoolExecutor(
 	    		threadNumber, threadNumber,
-				0, TimeUnit.SECONDS,
+				2, TimeUnit.SECONDS,
 				new ArrayBlockingQueue<Runnable>(maxQueueSize, false),
 				new ThreadPoolExecutor.CallerRunsPolicy()
 	    );
+        threadPool.allowCoreThreadTimeOut(true);  //线程的最大空闲时间，超出这个时间将进行回收
 	    
 	    CountDownLatch countDownLatch = new CountDownLatch(urls.length);  //栅栏
 	    Job[] jobs = new Job[urls.length];
@@ -82,7 +83,6 @@ public class HttpClientUtils {
 			contents[i] = jobs[i].getContent();
 		}
 
-        threadPool.shutdown();
 		return contents;
 	}
 	
