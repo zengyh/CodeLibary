@@ -81,6 +81,8 @@ public class HttpClientUtils {
 		for(int i = 0; i < jobs.length; i++){
 			contents[i] = jobs[i].getContent();
 		}
+
+        threadPool.shutdown();
 		return contents;
 	}
 	
