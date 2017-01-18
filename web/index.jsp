@@ -5,6 +5,9 @@
     <title></title>
   </head>
   <body>
-       test
+       <form action="servlet/LoginServlet" method="post">
+            用户名：<input type="text" name="username"/>
+            <input type="submit" value="提交"/>
+       </form>
   </body>
 </html>

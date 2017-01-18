@@ -47,6 +47,26 @@
         <url-pattern>/webServices/*</url-pattern>
     </servlet-mapping>
 
+    <!--测试Http Servlet生命周期的Servlet-->
+     <servlet>
+         <servlet-name>ServletTest</servlet-name>
+         <servlet-class>servlet.ServletTest</servlet-class>
+     </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletTest</servlet-name>
+        <url-pattern>/servlet/ServletTest</url-pattern>
+    </servlet-mapping>
+    
+    <!-- 用户登陆 Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>session.login.UserLoginAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servlet/LoginServlet</url-pattern>
+    </servlet-mapping>
+
     <!--Spring配置-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
