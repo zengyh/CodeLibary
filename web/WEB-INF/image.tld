@@ -140,5 +140,19 @@
             <rtexprvalue>true</rtexprvalue>
             <type>java.lang.String</type>
         </attribute>
+        <attribute>
+            <description>在“悬停展示预览图片的链接文本”前追加文本信息，追加的文本不作为链接，而是普通文本展示</description>
+            <name>beforeLinkTxt</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <description>在“悬停展示预览图片的链接文本”后追加文本信息，追加的文本不作为链接，而是普通文本展示</description>
+            <name>afterLinkTxt</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.String</type>
+        </attribute>
     </tag>
 </taglib>

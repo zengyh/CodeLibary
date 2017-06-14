@@ -57,5 +57,17 @@
         out.println( HtmlUtils.htmlEscape("<image:previewLink imageId=\"previewImageId2\" linkId=\"imageLinkId2\" linkTxt=\"预览图片\" imageSrc=\"${pageContext.request.contextPath}/images/background.jpg\" imageHeight=\"100\" onClick=\"alert('t2');\"></image:previewLink>") );
 %>
 </pre>
+
+<hr>
+
+鼠标悬停到链接上预览图片(<font color="red">链接前后追加文本</font>)例子效果:<br><br>
+<image:previewLink imageId="previewImageId3" linkId="imageLinkId3" linkTxt="预览图片" beforeLinkTxt="请看" afterLinkTxt="谢谢！" imageSrc="${pageContext.request.contextPath}/images/background.jpg" imageHeight="100" onClick="alert('t3');"></image:previewLink>
+<br>
+鼠标悬停到链接上预览图片(<font color="red">链接前后追加文本</font>)例子代码:
+<pre name="code" class="html">
+<%
+        out.println( HtmlUtils.htmlEscape("<image:previewLink imageId=\"previewImageId3\" linkId=\"imageLinkId3\" linkTxt=\"预览图片\" beforeLinkTxt=\"请看\" afterLinkTxt=\"谢谢！\" imageSrc=\"${pageContext.request.contextPath}/images/background.jpg\" imageHeight=\"100\" onClick=\"alert('t3');\"></image:previewLink>") );
+%>
+</pre>
 </body>
 </html>

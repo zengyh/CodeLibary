@@ -30,6 +30,8 @@ public class ImagePreviewLinkTag extends ImageScaleTag
     private String imageSrc;    //悬停展示的预览图片<image>的地址
     private Integer imageWidth;  //指定悬停展示的预览图片<image>的宽度，图片会按照该宽度进行缩放
     private Integer imageHeight; //指定悬停展示的预览图片<image>的高度，图片会按照该高度进行缩放，若是已经只指定了宽度，则高度无效
+    private String beforeLinkTxt = ""; //在“悬停展示预览图片的链接<a>”前追加文本信息
+    private String afterLinkTxt = ""; //在“悬停展示预览图片的链接<a>”后追加文本信息
 
     private String onClick;     //悬停展示预览图片的链接<a>的点击事件
 
@@ -55,10 +57,11 @@ public class ImagePreviewLinkTag extends ImageScaleTag
             //页面标签
             jspWriter.println("" +
                     "<div style=\"position: relative;float: left;padding: 0\">\n" +
+                       getBeforeLinkTxt() +
                        "<a "+getLinkIdTagAttr()+getLinkStyleTagAttr()+getLinkClassTagAttr()+"  href=\"javascript:void(0)\" "+getOnClickTagAttr()+" >"+linkTxt+"</a>\n"
                     );
             super.doStartTag();
-            jspWriter.println("</div>");
+            jspWriter.println(getAfterLinkTxt()+"</div>");
 
             //事件函数
             jspWriter.println("" +
@@ -308,5 +311,21 @@ public class ImagePreviewLinkTag extends ImageScaleTag
 
     public void setOnClick(String onClick) {
         this.onClick = onClick;
+    }
+
+    public String getBeforeLinkTxt() {
+        return beforeLinkTxt;
+    }
+
+    public void setBeforeLinkTxt(String beforeLinkTxt) {
+        this.beforeLinkTxt = beforeLinkTxt;
+    }
+
+    public String getAfterLinkTxt() {
+        return afterLinkTxt;
+    }
+
+    public void setAfterLinkTxt(String afterLinkTxt) {
+        this.afterLinkTxt = afterLinkTxt;
     }
 }
