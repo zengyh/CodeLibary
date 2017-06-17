@@ -98,6 +98,39 @@
         <url-pattern>*.action</url-pattern>
     </filter-mapping>
 
+    <!-- OSCACHE配置 -->
+    <filter>
+   		<filter-name>CacheFilter</filter-name>
+   		<!-- <filter-class>com.opensymphony.oscache.web.filter.CacheFilter</filter-class> -->
+   		<filter-class>filter.CustomOscacheFilter</filter-class>
+   		<init-param>
+   			<description>缓存有效时间，单位秒，这里设置了7天</description>
+   			<param-name>time</param-name>
+   			<param-value>604800</param-value>
+   		</init-param>
+   		<init-param>
+   			<description>缓存的范围，只能是session或application</description>
+   			<param-name>scope</param-name>
+   			<param-value>application</param-value>
+   		</init-param>
+   	</filter>
+   	<filter-mapping>
+   		<filter-name>CacheFilter</filter-name>
+   		<url-pattern>/oscache/*</url-pattern>
+   	</filter-mapping>
+   	<servlet>
+   	   <servlet-name>clearCacheServlet</servlet-name>
+   	   <servlet-class>servlet.ClearCacheServlet</servlet-class>
+   	   <init-param>
+   	      <param-name>scope</param-name>
+   	      <param-value>application</param-value>
+   	   </init-param>
+   	</servlet>
+   	<servlet-mapping>
+   	   <servlet-name>clearCacheServlet</servlet-name>
+   	   <url-pattern>/servlet/clearCacheServlet</url-pattern>
+   	</servlet-mapping>
+
 
     <mime-mapping>
         <extension>doc</extension>

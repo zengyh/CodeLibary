@@ -29,6 +29,7 @@
     <orderEntry type="library" name="ssh" level="project" />
     <orderEntry type="library" name="jmail" level="project" />
     <orderEntry type="library" name="junit" level="project" />
+    <orderEntry type="library" name="oscache" level="project" />
   </component>
 </module>
 

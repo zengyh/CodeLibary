@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="oscache">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../jars/oscache" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../jars/oscache" recursive="false" />
+  </library>
+</component>

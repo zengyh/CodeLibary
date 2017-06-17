@@ -13,6 +13,7 @@
           <element id="library" level="project" name="ssh" />
           <element id="library" level="project" name="jmail" />
           <element id="library" level="project" name="junit" />
+          <element id="library" level="project" name="oscache" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="CodeLibary/web/Web" />
