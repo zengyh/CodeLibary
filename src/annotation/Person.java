@@ -1,5 +1,7 @@
 package annotation;
 
+import  annotation.NewAnnotation.EnumTest;
+
 public class Person {
     @NewAnnotation
 	String name;

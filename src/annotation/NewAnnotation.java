@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface NewAnnotation {  
+public @interface NewAnnotation {
+    enum EnumTest{LiXiaoLong,ChengZhen,WangFeiHong};
     EnumTest value() default EnumTest.ChengZhen;
 }
-enum EnumTest{LiXiaoLong,ChengZhen,WangFeiHong};
