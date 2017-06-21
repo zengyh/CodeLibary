@@ -48,7 +48,7 @@ public class ClearCacheServlet extends HttpServlet {
 		boolean success = true;
 		
 		try{
-			OscacheUtils.flushCashByKey(req, cachekey, CACHE_SCOPE);
+			OscacheUtils.flushCacheByKey(req, cachekey, CACHE_SCOPE);
 		}catch (Exception e){
 			e.printStackTrace();
 			logger.error(StringUtils.getExceptionMessage(e));

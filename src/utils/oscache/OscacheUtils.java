@@ -25,7 +25,7 @@ public class OscacheUtils {
 	 * @param key       缓存的KEY
 	 * @param scope     缓存的作用域
 	 */
-	public static void flushCashByKey(HttpServletRequest request, String key, CACHE_SCOPE scope){
+	public static void flushCacheByKey(HttpServletRequest request, String key, CACHE_SCOPE scope){
 		int scopetype = 0;
 		switch(scope){
 		        case APPLICATION_SCOPE:
