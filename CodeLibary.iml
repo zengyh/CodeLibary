@@ -30,6 +30,7 @@
     <orderEntry type="library" name="jmail" level="project" />
     <orderEntry type="library" name="junit" level="project" />
     <orderEntry type="library" name="oscache" level="project" />
+    <orderEntry type="library" name="json" level="project" />
   </component>
 </module>
 
