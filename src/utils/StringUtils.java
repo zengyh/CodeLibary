@@ -3,6 +3,7 @@ package utils;
 import org.hibernate.lob.SerializableBlob;
 import org.hibernate.lob.SerializableClob;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 import java.math.BigDecimal;
 import java.text.NumberFormat;
@@ -386,6 +387,22 @@ public class StringUtils
 
         return number;
 
+    }
+
+    /**
+     * 返回web项目的context path，格式 为：协议://服务器IP或服务器主机名:端口号/项目的Context ROOT
+     * @param request
+     * @return
+     */
+    public static String getWebContextPath(HttpServletRequest request){
+		StringBuilder webContextPathBuilder = new StringBuilder();
+		webContextPathBuilder.append(request.getScheme())
+		                     .append("://")
+		                     .append(request.getServerName())
+		                     .append(":")
+		                     .append(request.getServerPort())
+		                     .append(request.getContextPath());
+		return webContextPathBuilder.toString();
     }
 
 
