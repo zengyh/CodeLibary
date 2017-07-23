@@ -13,20 +13,19 @@ import utils.StringUtils;
  * @date 2017-6-27
  */
 public class SpringBeanUtils {
-	
+
 	private static Logger logger = Logger.getLogger(SpringBeanUtils.class);
-	
-	static String filePath ="WebRoot/WEB-INF/applicationContext.xml";
+
 	static  ApplicationContext CONTEXT ;
 	static{
 		try{
-			CONTEXT = new FileSystemXmlApplicationContext(filePath);
+			CONTEXT = new FileSystemXmlApplicationContext("WebRoot/WEB-INF/applicationContext.xml");
 		}catch(Exception e){
 			logger.error(StringUtils.getExceptionMessage(e));
 		}
 	}
-	
-	
+
+
 	/**
 	 * 获取Bean
 	 * @param uniqueIdentifier Bean的唯一标识，可以是ID也可以是name
@@ -35,7 +34,7 @@ public class SpringBeanUtils {
 	public static Object getBean(String uniqueIdentifier){
 		return CONTEXT.getBean(uniqueIdentifier);
 	}
-	
+
 	/**
 	 * 获取SessionFacotry对象
 	 * @param uniqueIdentifier  SessionFactory Bean的唯一标识，可以是ID也可以是name
@@ -45,13 +44,8 @@ public class SpringBeanUtils {
 		return (SessionFactory) CONTEXT.getBean(uniqueIdentifier);
 	}
 
-	public static String getFilePath() {
-		return filePath;
-	}
-
-	public static void setFilePath(String filePath) {
-		SpringBeanUtils.filePath = filePath;
+	public static void setFilePath(String... filePath) {
 		CONTEXT = new FileSystemXmlApplicationContext(filePath);
 	}
-	
+
 }
