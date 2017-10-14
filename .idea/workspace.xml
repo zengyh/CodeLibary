@@ -6,13 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="&#10;&#10;修改 utils/spring/SpringBeanUtils.java工具类">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/spring/SpringBeanUtils.java" afterPath="$PROJECT_DIR$/src/utils/spring/SpringBeanUtils.java" />
+    <list default="true" id="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" name="Default" comment="&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/oracle/FindFuncSQL.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeLibary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1501082597000" ignored="false" />
+    <file path="/Dummy.txt" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1507986229319" ignored="false" />
     <file path="/fragment.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1497801033004" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Commandreport1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408329078955" ignored="false" />
     <file path="$PROJECT_DIR$/../ir_sirm_jj_dcjj/src/com/sinitek/sirm/web/rschreport/innerreport/support/writer/Other1Writer.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1408093956417" ignored="false" />
@@ -264,6 +264,7 @@
     <file path="/OscacheUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1498061403720" ignored="false" />
     <file path="/ClearCacheServlet.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1498061420619" ignored="false" />
     <file path="/SpringBeanUtils.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1501082586784" ignored="false" />
+    <file path="/FindFuncSQL.java" changelist="fd4ac075-ca7e-4d9c-91cc-45d7c55ea008" time="1507986153454" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +289,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -323,6 +323,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -332,11 +333,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpringBeanUtils.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils/spring/SpringBeanUtils.java">
+      <file leaf-file-name="FindFuncSQL.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/oracle/FindFuncSQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="59" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.64849627">
-              <folding />
+            <state line="16" column="75" selection-start="437" selection-end="437" vertical-scroll-proportion="0.54075545">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#834#1058#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -361,8 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/StringTest.java" />
-        <option value="$PROJECT_DIR$/src/annotation/NewAnnotation.java" />
         <option value="$PROJECT_DIR$/src/annotation/Person.java" />
         <option value="$PROJECT_DIR$/src/utils/oscache/OscacheUtils.java" />
         <option value="$PROJECT_DIR$/src/servlet/ClearCacheServlet.java" />
@@ -377,6 +380,8 @@
         <option value="$PROJECT_DIR$/src/log4j.properties" />
         <option value="$PROJECT_DIR$/src/utils/nio/FileReadWriteTest.java" />
         <option value="$PROJECT_DIR$/src/utils/spring/SpringBeanUtils.java" />
+        <option value="$PROJECT_DIR$/src/utils/database/FindFuncSQL.java" />
+        <option value="$PROJECT_DIR$/src/utils/oracle/FindFuncSQL.java" />
       </list>
     </option>
   </component>
@@ -460,8 +465,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -530,7 +535,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
+              <option name="myItemId" value="oracle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,7 +557,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nio" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,7 +625,7 @@
       <recent name="E:\workspace\CodeLibary\web" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileReadWriteTest">
+  <component name="RunManager" selected="Application.FindFuncSQL">
     <configuration default="false" name="FileReadWriteTest" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -657,28 +662,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="utils.StringTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CodeLibary" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringAddTest" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="utils.StringAddTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -736,6 +719,28 @@
       <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FindFuncSQL" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="utils.oracle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="utils.oracle.FindFuncSQL" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeLibary" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -981,17 +986,17 @@
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat7.0" />
       <item index="1" class="java.lang.String" itemvalue="Application.FileReadWriteTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.StringTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringAddTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestAnnotation" />
-      <item index="5" class="java.lang.String" itemvalue="Application.JdkDynamicProxyTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestAnnotation" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JdkDynamicProxyTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FindFuncSQL" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileReadWriteTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JdkDynamicProxyTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestAnnotation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StringAddTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FindFuncSQL" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FileReadWriteTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JdkDynamicProxyTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestAnnotation" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1382,7 +1387,11 @@
       <created>1500794669332</created>
       <updated>1500794669332</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="&#10;&#10;修改 utils/spring/SpringBeanUtils.java工具类">
+      <created>1501082671947</created>
+      <updated>1501082671947</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1410,20 +1419,21 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.49730563" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902735" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942264" sideWeight="0.25913045" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942264" sideWeight="0.25913045" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5190972" sideWeight="0.6056231" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49131945" sideWeight="0.5007599" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3454861" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32118055" sideWeight="0.49730563" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5364583" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20668693" sideWeight="0.5086806" order="0" side_tool="false" content_ui="combo" />
@@ -1435,7 +1445,6 @@
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5555556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32118055" sideWeight="0.49730563" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1574,26 +1583,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../jars/j2ee/jsp-api.jar!/javax/servlet/jsp/tagext/BodyTagSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="176" selection-end="176" vertical-scroll-proportion="0.25591397" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../jars/j2ee/jsp-api.jar!/javax/servlet/jsp/tagext/Tag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="161" selection-end="161" vertical-scroll-proportion="0.24089068" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tag/ImageScaleTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="29" selection-start="3320" selection-end="3320" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../jars/j2ee/jsp-api.jar!/javax/servlet/jsp/tagext/IterationTag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="74" selection-end="74" vertical-scroll-proportion="0.098076925" />
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/io/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="187" column="28" selection-start="5647" selection-end="5647" vertical-scroll-proportion="0.33270678" />
@@ -1611,51 +1600,37 @@
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="355" column="0" selection-start="13513" selection-end="13513" vertical-scroll-proportion="0.3304721">
-          <folding />
-        </state>
+        <state line="355" column="0" selection-start="13513" selection-end="13513" vertical-scroll-proportion="0.3304721" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="328" column="0" selection-start="11390" selection-end="11390" vertical-scroll-proportion="0.03195489">
-          <folding />
-        </state>
+        <state line="328" column="0" selection-start="11390" selection-end="11390" vertical-scroll-proportion="0.03195489" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="714" column="0" selection-start="25576" selection-end="25576" vertical-scroll-proportion="0.03195489">
-          <folding />
-        </state>
+        <state line="714" column="0" selection-start="25576" selection-end="25576" vertical-scroll-proportion="0.03195489" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/util/LinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="314" column="0" selection-start="12392" selection-end="12392" vertical-scroll-proportion="0.03119266">
-          <folding />
-        </state>
+        <state line="314" column="0" selection-start="12392" selection-end="12392" vertical-scroll-proportion="0.03119266" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/io/ExpiringCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.03119266">
-          <folding />
-        </state>
+        <state line="98" column="0" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.03119266" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/io/Win32FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="534" column="0" selection-start="19959" selection-end="19959" vertical-scroll-proportion="0.03195489">
-          <folding />
-        </state>
+        <state line="534" column="0" selection-start="19959" selection-end="19959" vertical-scroll-proportion="0.03195489" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_06/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1307" column="27" selection-start="55791" selection-end="55799" vertical-scroll-proportion="0.03195489">
-          <folding />
-        </state>
+        <state line="1307" column="27" selection-start="55791" selection-end="55799" vertical-scroll-proportion="0.03195489" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/nio/FileReadWriteTest.java">
@@ -1667,8 +1642,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/spring/SpringBeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="59" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.64849627">
+        <state line="50" column="59" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.7199248">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="480" selection-end="480" vertical-scroll-proportion="-0.31954888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/database/TabDatabaseBackup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="147" selection-end="147" vertical-scroll-proportion="0.24954128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/database/DatabaseBackupServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/oracle/FindFuncSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="75" selection-start="437" selection-end="437" vertical-scroll-proportion="0.54075545">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#834#1058#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
